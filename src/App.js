@@ -1,15 +1,11 @@
-import './App.css';
+import MainPage from './components/MainPage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">        
-        <p>
-          MCB Amplify Site
-        </p>        
-      </header>
+    <div className='App'>              
+        <MainPage />      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
