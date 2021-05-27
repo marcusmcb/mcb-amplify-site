@@ -1,12 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
+import PageBody from './PageBody'
+
 import './mainpage.css'
 
 const MainPage = () => {
   return (
     <div>
-      <span>
-        <p className='title-bar'>MCB Amplify Site</p>
-      </span>
+      <Navbar/>
+      <PageBody/>
     </div>
   )
 }
