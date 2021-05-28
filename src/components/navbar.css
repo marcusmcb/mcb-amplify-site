@@ -5,6 +5,11 @@
     padding: 20px 0;  
   }
 
+
+.mcb-title {
+  font-size: 3vh;
+}
+
 .social-icons,
 .page-links {
   display: flex;

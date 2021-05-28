@@ -1,3 +1,8 @@
 .card-border {
     border: none !important;    
 }
+
+.content-body {
+    background-color: #A8DEEC !important;
+    color: #282D2E;
+}

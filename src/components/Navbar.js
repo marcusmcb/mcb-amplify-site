@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <Row className='title-bar'>
-        <Col>Marcus McBride</Col>
+        <Col className="mcb-title">Marcus McBride</Col>
         <Col>Dev</Col>
         {/* <Col>DJ/Remix</Col>
         <Col>Contact</Col> */}
