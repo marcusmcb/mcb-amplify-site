@@ -5,18 +5,31 @@ import './pagebody.css'
 const PageBody = () => {
   return (
     <div>
-      <Row>
+      <Row className='g-0'>
         <Col>
-          <Card>
-            <Card.Img variant='top' src='../images/mcb-logo.jpg' />
+          <Card className='card-border'>
+            <Card.Img
+              variant='top'
+              src='https://avatars.githubusercontent.com/u/38328362?v=4'
+            />
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className='card-border'>
             <Card.Body>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Quis ullamco occaecat sint fugiat incididunt pariatur eiusmod
+                commodo cillum est. Dolor consequat excepteur nulla excepteur
+                sint tempor sunt ullamco sit commodo. Consectetur nostrud fugiat
+                proident labore commodo.
+                <br/>
+                <br/>
+                Quis ullamco occaecat sint fugiat incididunt pariatur eiusmod
+                commodo cillum est. Dolor consequat excepteur nulla excepteur
+                sint tempor sunt ullamco sit commodo. Consectetur nostrud fugiat
+                proident labore commodo.
+
+
               </Card.Text>
             </Card.Body>
           </Card>
