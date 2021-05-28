@@ -10,6 +10,11 @@ const Navbar = () => {
         <Col>Dev</Col>
         <Col>DJ/Remix</Col>
         <Col>Contact</Col>
+        <Col className='social-icons'>
+          <i className='fa fa-instagram' />
+          <i className='fa fa-twitter' />
+          <i className='fa fa-twitch' />
+        </Col>
       </Row>
     </div>
   )

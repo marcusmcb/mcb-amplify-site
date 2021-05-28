@@ -4,4 +4,10 @@
     color: white;
     padding: 20px 0;  
   }
+
+.social-icons,
+.page-links {
+  display: flex;
+  justify-content:space-around;
+}
   
