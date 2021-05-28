@@ -1,22 +1,33 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <Row className='title-bar'>
-        <Col className="mcb-title">Marcus McBride</Col>
-        <Col>Dev</Col>
-        {/* <Col>DJ/Remix</Col>
-        <Col>Contact</Col> */}
-        <Col className='social-icons'>
-        <a href="http://www.instagram.com/djmarcusmcb"><i className='fa fa-instagram'></i></a>
-        <a href="http://www.twitter.com/djmarcusmcb"><i className='fa fa-twitter'></i></a>
-        <a href="http://www.twitch.tv/djmarcusmcb"><i className='fa fa-twitch'></i></a>
-          
+    <div className='header'>      
+        <Col>
+          <div className='header-title'>Marcus McBride</div>
         </Col>
-      </Row>
+        <Col>
+        <span className='header-links'>
+          <div>Dev</div>
+          <div>Radio</div>
+          <div>Contact</div>
+        </span>
+        </Col>
+        <Col className='header-icons'>
+          <div>
+            <a className='icon' href='http://www.instagram.com/djmarcusmcb'>
+              <i className='fa fa-instagram'></i>
+            </a>
+            <a className='icon' href='http://www.twitter.com/djmarcusmcb'>
+              <i className='fa fa-twitter'></i>
+            </a>
+            <a className='icon' href='http://www.twitch.tv/djmarcusmcb'>
+              <i className='fa fa-twitch'></i>
+            </a>
+          </div>
+        </Col>            
     </div>
   )
 }

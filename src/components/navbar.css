@@ -1,23 +1,43 @@
-.title-bar {
-    text-align: center;
-    background-color: lightslategray;
-    color: white;
-    padding: 20px 0;  
-  }
-
-
-.mcb-title {
-  font-size: 3vh;
-}
-
-.social-icons,
-.page-links {
+.header,
+.header-links,
+.header-icons {
   display: flex;
-  justify-content:space-around;
-  font-size:large;
 }
 
-a {
-  color: white !important;
+.header,
+.header-links {
+  justify-content: space-around;
 }
-  
+
+.header {
+  margin-left: auto;
+  margin-right: auto;    
+  padding: 5px;
+  background-color: #A8DEEC !important;
+}
+
+.header-title {
+  padding: 10px;
+  font-size: large;
+  font-weight:800;
+  margin-left: 20px;  
+}
+
+.header-links {    
+  font-size: small;
+  padding: 13px;
+  color: darkslategray;
+}
+
+.header-icons {
+  padding-top: 4px;  
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.icon {
+  padding: 10px;
+  font-size: x-large;
+  color: black !important;  
+}
+
