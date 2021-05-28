@@ -8,12 +8,13 @@ const Navbar = () => {
       <Row className='title-bar'>
         <Col>Marcus McBride</Col>
         <Col>Dev</Col>
-        <Col>DJ/Remix</Col>
-        <Col>Contact</Col>
+        {/* <Col>DJ/Remix</Col>
+        <Col>Contact</Col> */}
         <Col className='social-icons'>
-          <i className='fa fa-instagram' />
-          <i className='fa fa-twitter' />
-          <i className='fa fa-twitch' />
+        <a href="http://www.instagram.com/djmarcusmcb"><i className='fa fa-instagram'></i></a>
+        <a href="http://www.twitter.com/djmarcusmcb"><i className='fa fa-twitter'></i></a>
+        <a href="http://www.twitch.tv/djmarcusmcb"><i className='fa fa-twitch'></i></a>
+          
         </Col>
       </Row>
     </div>

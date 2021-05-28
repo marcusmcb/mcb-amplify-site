@@ -9,5 +9,10 @@
 .page-links {
   display: flex;
   justify-content:space-around;
+  font-size:large;
+}
+
+a {
+  color: white !important;
 }
   
