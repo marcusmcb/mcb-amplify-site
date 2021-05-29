@@ -1,7 +1,9 @@
 .header,
 .header-links,
-.header-icons {
+.header-icons,
+.fa {
   display: flex;
+  color: white !important;
 }
 
 .header,
@@ -13,7 +15,7 @@
   margin-left: auto;
   margin-right: auto;    
   padding: 5px;
-  background-color: #A8DEEC !important;
+  background-color: #18543b !important;
   display: flex;
   flex-direction:row;
   border-top: 1px solid darkslategray;

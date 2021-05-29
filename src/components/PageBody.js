@@ -24,7 +24,7 @@ const PageBody = () => {
         <Col md={8}>
           <Card className='card-border content-body'>
             <Card.Body>
-              <Card.Text>
+              <Card.Text className='card-body-text'>
                 Marcus here. I'm a full-stack developer and broadcast producer
                 based in Orange County, California
                 <br />

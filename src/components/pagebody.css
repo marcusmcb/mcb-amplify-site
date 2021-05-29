@@ -1,28 +1,37 @@
 .card-border {
-    border: none !important;    
-}
-
-.content-body {    
-    color: darkslategray;
+  border: none !important;
 }
 
 .mcb-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.page-body,
+.page-body {
+  /* background-color: #bccccf !important; */
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://orangecountylemonlaw.com/wp-content/uploads/2015/07/NobodyWalksinLA.1-1100x733.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;    
+}
+
 .content-body {
-    background-color: #bccccf !important;
+    background: transparent !important;
+}
+
+.card-body-text {
+    color: white; 
+    font-weight: 400;   
 }
 
 @media screen and (max-width: 550px) {
-    .page-body-contents {
-        display: flex;
-        flex-direction: column;
-    }
-    .mcb-logo {
-        width: fit-content;        
-    }
-}    
+  .page-body-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .mcb-logo {
+    width: fit-content;
+  }
+}
