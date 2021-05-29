@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className='header-title'>Marcus McBride</div>
         </Col>
         <Row className='header-clickables g-0'>
-        <Col className='header-links-row'>
+        <Col className>
         <span className='header-links'>
           <div className='header-link'>Dev</div>
           <div className='header-link'>Radio</div>
