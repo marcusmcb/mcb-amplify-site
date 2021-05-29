@@ -12,6 +12,10 @@
     margin-right: auto;    
   }
 
+.page-body,
+.content-body {
+    background-color: #bccccf !important;
+}
 
 @media screen and (max-width: 550px) {
     .page-body-contents {
@@ -19,6 +23,6 @@
         flex-direction: column;
     }
     .mcb-logo {
-        width: 50%;        
+        width: fit-content;        
     }
 }    

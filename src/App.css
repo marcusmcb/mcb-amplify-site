@@ -1,17 +1,3 @@
-/* .App,
-.row {
-  margin-left: 2vw !important;
-  margin-right: 2vw !important;
-}
-
-@media screen and (min-width: 790px) {
-  .App,
-  .row {
-    margin-left: none !important;
-    margin-right: none !important;
-  }
-} */
-
 .App {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;  
 }
