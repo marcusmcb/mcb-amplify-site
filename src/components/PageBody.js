@@ -6,7 +6,7 @@ const PageBody = () => {
   return (
     <div>
       <Row className='g-0 page-body-contents'>
-        <Col md={4}>
+        <Col sm={4}>
           <Card className='card-border content-body'>
             <Card.Body>
               <Image
@@ -14,12 +14,13 @@ const PageBody = () => {
                 variant='top'
                 src='https://avatars.githubusercontent.com/u/38328362?v=4'
                 alt='MCB Logo'
-                width='200'                
+                width='200'
+                fluid roundedCircle               
               />
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col sm={8}>
           <Card className='card-border content-body'>
             <Card.Body>
               <Card.Text>

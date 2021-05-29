@@ -6,11 +6,11 @@
     color: #282D2E;
 }
 
-/* .mcb-logo {
+.mcb-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;    
-  } */
+  }
 
 
 @media screen and (max-width: 550px) {
@@ -18,8 +18,7 @@
         display: flex;
         flex-direction: column;
     }
-    /* .mcb-logo {
-        width: fit-content;
-        
-    } */
+    .mcb-logo {
+        width: 50%;        
+    }
 }    
