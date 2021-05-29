@@ -1,17 +1,20 @@
 import React from 'react'
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col, Card, Image } from 'react-bootstrap'
 import './pagebody.css'
 
 const PageBody = () => {
   return (
     <div>
       <Row className='g-0 page-body-contents'>
-        <Col>
+        <Col md={4}>
           <Card className='card-border content-body'>
             <Card.Body>
-              <Card.Img
+              <Image
+                className='mcb-logo'
                 variant='top'
                 src='https://avatars.githubusercontent.com/u/38328362?v=4'
+                alt='MCB Logo'
+                width='200'                
               />
             </Card.Body>
           </Card>
@@ -26,11 +29,10 @@ const PageBody = () => {
                 </p>
                 <p>
                   I've worked as a contract producer, programmer and project
-                  manager within the commercial radio industry for the past two decades.  
+                  manager within the commercial radio industry for the past two
+                  decades.
                 </p>
-                <p>
-                  I also write code!
-                </p>
+                <p>I also write code!</p>
               </Card.Text>
             </Card.Body>
           </Card>

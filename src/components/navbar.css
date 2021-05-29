@@ -15,7 +15,9 @@
   padding: 5px;
   background-color: #A8DEEC !important;
   display: flex;
-  flex-direction:row;  
+  flex-direction:row;
+  border-top: 1px solid darkslategray;
+  border-bottom: 1px solid darkslategray;
 }
 
 #header-scroll {
@@ -53,7 +55,7 @@
   color: black !important;  
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
   .header {
     flex-direction: column;                       
   }  
