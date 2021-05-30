@@ -20,5 +20,3 @@ export default App
 // * move images to S3 bucket
 // * routing to navbar pages
 // * component organization
-
-// * as user sizes screen horizontally carousel images expand to fill space on mobile view
