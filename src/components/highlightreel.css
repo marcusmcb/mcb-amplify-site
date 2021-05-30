@@ -1,14 +1,27 @@
-.carousel-element {
-  height: 200px;
-  object-fit: cover;  
+.carousel-element-one {
+  height: 200px;  
+  background-position: 55% 55%;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://www.musictech.net/wp-content/uploads/2017/09/NI_MASCHINE_MK3_Foto-03.png');  
 }
 
-.carousel-element-one {
-  object-position: 37% 37%;  
+.carousel-element-two {
+  height: 200px;
+  object-fit: cover;  
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');  
 }
 
 .carousel-element-three {
-  object-position: 30% 30%;
+  height: 200px;  
+  background-position: 30% 30%;
+  background-size: cover;  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://pbs.twimg.com/media/EzYgA_RVkAI2Vwe?format=jpg&name=large');
+    
 }
 
 .carousel-element-caption-right {
@@ -24,7 +37,7 @@
 } */
 
 .carousel-item > img {
-  width: 100%;  
+  width: 100%;
 }
 
 @media screen and (max-width: 540px) {
