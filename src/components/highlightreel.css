@@ -1,0 +1,21 @@
+/* .carousel-contents {
+    width: fit-content; 
+    height: 200px !important;   
+    margin: auto;
+} */
+
+.carousel-element {
+    height: 200px;    
+}
+
+.carousel-element-caption-right {
+    text-align:right !important;
+}
+
+.carousel-element-caption-left {
+    text-align:left !important;
+}
+
+.carousel-item > img {
+    width: 100%;    
+}
