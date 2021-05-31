@@ -4,9 +4,14 @@
     color: white;    
 }
 
-.footer-page-title {
+.footer-page-title,
+.footer-page-socials {
     padding: 30px;
     font-weight: 600;
+}
+
+.footer-page-socials {
+    padding-bottom: 10px;
 }
 
 .footer-page-body {
@@ -14,8 +19,24 @@
     padding: 30px;      
 }
 
-.footer-page-button-row {
+.footer-page-button-row,
+.arrow-icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
+}
+
+.arrow-icon {
+    padding: 10px;
+}
+
+.footer-page-button-row {
     padding: 20px;
+}
+
+.footer-page-button {
+    background-color: #2a4e85 !important;    
+}
+
+.linktree {
+    color: yellow !important;    
 }

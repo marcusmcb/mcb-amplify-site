@@ -11,23 +11,23 @@ const DevPage = () => {
       <Navbar />
       <div className='dev-page-body'>
         <Row className='g-0 dev-page-body-contents'>
-          <Col sm={6} className='dev-page-card'>
-            <Card className='devpage-card-content-body'>
-              <Card.Body className='devpage-card  devpage-card-body-text-background'>
+          <Col sm={6}>
+            <Card className='devpage-card devpage-card-content-body'>
+              <Card.Body className='devpage-card-body-text-background'>
                 <span>
                   <Card.Img
                     variant='top'
                     src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
                   />
                 </span>
-                <Card.ImgOverlay>
+                <Card.ImgOverlay className='devpage-card-overlay'>
                   <Card.Title className='devpage-card-title'>
                     CoinSnapShot
                   </Card.Title>
                 </Card.ImgOverlay>
                 <Card.Text>
-                  A responsive crypto dashboard app built with React and Amplify
-                  with data via the CoinGecko API.
+                  A mobile-first crypto dashboard built with React, Node and
+                  Amplify with data via the CoinGecko API.
                 </Card.Text>
                 <span className='devpage-button-row'>
                   <Button className='devpage-button' variant='secondary'>
@@ -61,7 +61,7 @@ const DevPage = () => {
                     src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
                   />
                 </span>
-                <Card.ImgOverlay>
+                <Card.ImgOverlay className='devpage-card-overlay'>
                   <Card.Title className='devpage-card-title'>
                     JSP-1 (Javascript Sample Player)
                   </Card.Title>
@@ -105,7 +105,7 @@ const DevPage = () => {
                     src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
                   />
                 </span>
-                <Card.ImgOverlay>
+                <Card.ImgOverlay className='devpage-card-overlay'>
                   <Card.Title className='devpage-card-title'>
                     Eventageous
                   </Card.Title>
@@ -146,7 +146,7 @@ const DevPage = () => {
                     src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
                   />
                 </span>
-                <Card.ImgOverlay>
+                <Card.ImgOverlay className='devpage-card-overlay'>
                   <Card.Title className='devpage-card-title'>
                     Yelp Machine Learning Project
                   </Card.Title>

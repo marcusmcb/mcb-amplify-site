@@ -1,3 +1,8 @@
+.dev-page-body {
+    background-color: rgb(106, 123, 170);
+}
+
+
 .devpage-title {
   text-align: center;
 }
@@ -17,14 +22,13 @@
   opacity: 1;
 }
 
+.devpage-card-overlay,
 .devpage-card-title {    
     position: absolute;         
     margin: 0;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -100%)
+    max-height: 100px;    
 }
-
+ 
 .devpage-card img {
   width: 100px;
   display: table;
