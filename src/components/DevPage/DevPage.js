@@ -12,12 +12,12 @@ const DevPage = () => {
       <div className='dev-page-body'>
         <Row className='g-0 dev-page-body-contents'>
           <Col sm={6} className='dev-page-card'>
-            <Card className="devpage-card">
+            <Card className="devpage-card devpage-card-content-body">
               <Card.Img                
                 variant='top'
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
-              <Card.Body>
+              <Card.Body className='devpage-card-body-text-background'>
                 <Card.Title>CoinSnapShot</Card.Title>
                 <Card.Text>
                   A responsive crypto dashboard app built with React and Amplify
@@ -47,12 +47,12 @@ const DevPage = () => {
             </Card>
           </Col>
           <Col sm={6}>
-          <Card className="devpage-card">
+          <Card className="devpage-card devpage-card-content-body">
               <Card.Img                
                 variant='top'
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
-              <Card.Body>
+              <Card.Body className='devpage-card-body-text-background'>
               <Card.Title>JSP-1 (Javascript Sample Player)</Card.Title>
                 <Card.Text>
                   A browser-based drum machine with both MIDI/velocity implementation and QWERTY/touch playback built with Javascript and S3.
@@ -83,12 +83,12 @@ const DevPage = () => {
         </Row>
         <Row className='g-0 dev-page-body-contents'>
           <Col sm={6}>
-          <Card className="devpage-card">
+          <Card className="devpage-card devpage-card-content-body">
               <Card.Img                
                 variant='top'
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
-              <Card.Body>
+              <Card.Body className='devpage-card-body-text-background'>
                 <Card.Title>Eventageous</Card.Title>
                 <Card.Text>
                   A social networking app for event professionals.  Built with the MERN stack, Bootstrap and Redux.
@@ -117,12 +117,12 @@ const DevPage = () => {
             </Card>
           </Col>
           <Col sm={6}>
-          <Card className="devpage-card">
+          <Card className="devpage-card devpage-card-content-body">
               <Card.Img                
                 variant='top'
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
-              <Card.Body>
+              <Card.Body className='devpage-card-body-text-background'>
                 <Card.Title>Yelp Machine Learning Project</Card.Title>
                 <Card.Text>
                   Group machine learning project where our team @ UCI utilized the Yelp API to predict the success of a restaurant based on its category, location, and price point using the Random Forest methodology.

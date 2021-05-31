@@ -1,27 +1,46 @@
 .devpage-title {
-    text-align: center;
+  text-align: center;
 }
 
 .devpage-button-row {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .devpage-card {
-    width: auto !important;
-    border: 2px solid black !important;
-    margin: 5%;
+  width: auto !important;
+  /* border: 2px solid black !important; */
+  margin: 5%;
+  /* background: linear-gradient(rgba(109, 109, 109, 0.6), rgba(37, 37, 37, 0.6)); */
+  color: white;
+  /* background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  opacity: 1; */
+}
+
+.devpage-card-content-body {
+  background: transparent !important;
+}
+
+.devpage-card-body-text-background {
+  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  opacity: 1;
 }
 
 .devpage-card img {
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dev-page-body {
-    background: linear-gradient(rgba(109, 109, 109, 0.6), rgba(37, 37, 37, 0.6));
+  background-image: linear-gradient(
+      rgba(153, 153, 153, 0.6),
+      rgba(68, 67, 67, 0.6)
+    ),
+    url('https://orangecountylemonlaw.com/wp-content/uploads/2015/07/NobodyWalksinLA.1-1100x733.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px solid black;
 }
-
-
-
