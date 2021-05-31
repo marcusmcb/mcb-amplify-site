@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import MainPage from './components/MainPage/MainPage'
 import FooterPage from './components/FooterPage/FooterPage'
+import DevPage from './components/DevPage/DevPage'
+import RadioPage from './components/RadioPage/RadioPage'
+import ContactPage from './components/ContactPage/ContactPage'
 
 import './App.css'
 import 'font-awesome/css/font-awesome.min.css'
@@ -16,6 +19,15 @@ const App = () => {
       </Route>
       <Route path='/footer'>
         <FooterPage />
+      </Route>
+      <Route path='/dev'>
+        <DevPage/>
+      </Route>
+      <Route path='/radio'>
+        <RadioPage/>
+      </Route>
+      <Route path='/contact'>
+        <ContactPage/>
       </Route>
     </Switch>
   )

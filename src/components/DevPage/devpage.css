@@ -1,0 +1,23 @@
+.devpage-title {
+    text-align: center;
+}
+
+.devpage-button-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpage-card {
+    width: auto !important;
+    border: 2px solid black !important;
+    margin: 5%;
+}
+
+.devpage-card img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

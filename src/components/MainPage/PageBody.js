@@ -32,7 +32,7 @@ const PageBody = () => {
                 In 2018, my career path took a shift to pursue web and tech development full time. Since then, I’ve worked on a variety of projects in various roles as a full-stack developer. I’m experienced in finding effective solutions to both creative hurdles and technical challenges.
                 <br />
                 <br />
-                My current strengths are Javascript, Node, React/Redux, Python (Flask/Jupyter), Ruby/Rails, SQL, Mongo/Atlas, AWS, Docker, data visualizations as well as various dev/data/workflow methodologies (REST, MVC, mobile-first, ETL, Agile/Scrum/Jira, Linux, IoT). 
+                My current strengths include Javascript, Node, React/Redux, Python (Flask/Jupyter), Ruby/Rails, SQL, Mongo/Atlas, AWS, Docker, data visualizations as well as various dev/data/workflow methodologies (REST, MVC, mobile-first, ETL, Agile/Scrum/Jira, Linux, IoT). 
                 <br />
                 <br />
                 My experience as a content producer, programmer, and project manager in the commercial broadcast industry for over two decades has driven me to be detail-oriented and deadline-driven. 
