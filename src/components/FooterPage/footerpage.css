@@ -1,7 +1,15 @@
-.footer-page {
-    height: 100vh;    
+.footer-page-text,
+.footer-page-title {
+    text-align: center; 
+    color: white;    
 }
 
-.footer-page-text {
-    text-align: center;    
+.footer-page-title {
+    padding: 30px;
+    font-weight: 600;
+}
+
+.footer-page-body {
+    background-color: rgb(106, 123, 170) !important;
+    padding: 30px;      
 }
