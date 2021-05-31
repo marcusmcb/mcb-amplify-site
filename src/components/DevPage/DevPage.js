@@ -39,7 +39,7 @@ const DevPage = () => {
                       target='_blank'
                       rel='noreferrer'
                     >
-                      Visit App
+                      View Code
                     </a>
                   </Button>
                 </span>
@@ -53,15 +53,14 @@ const DevPage = () => {
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
               <Card.Body>
-                <Card.Title>CoinSnapShot</Card.Title>
+              <Card.Title>JSP-1 (Javascript Sample Player)</Card.Title>
                 <Card.Text>
-                  A responsive crypto dashboard app built with React and Amplify
-                  with data via the CoinGecko API.
+                  A browser-based drum machine with both MIDI/velocity implementation and QWERTY/touch playback built with Javascript and S3.
                 </Card.Text>
                 <span className='devpage-button-row'>
                   <Button className='devpage-button' variant='secondary'>
                     <a
-                      href='http://www.coinsnapshot.com'
+                      href='http://www.jspone.com'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -70,11 +69,11 @@ const DevPage = () => {
                   </Button>
                   <Button className='devpage-button' variant='secondary'>
                     <a
-                      href='https://github.com/marcusmcb/crypto-dashboard'
+                      href='https://github.com/marcusmcb/JS-Drum-Machine'
                       target='_blank'
                       rel='noreferrer'
                     >
-                      Visit App
+                      View Code
                     </a>
                   </Button>
                 </span>
@@ -90,15 +89,14 @@ const DevPage = () => {
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
               <Card.Body>
-                <Card.Title>CoinSnapShot</Card.Title>
+                <Card.Title>Eventageous</Card.Title>
                 <Card.Text>
-                  A responsive crypto dashboard app built with React and Amplify
-                  with data via the CoinGecko API.
+                  A social networking app for event professionals.  Built with the MERN stack, Bootstrap and Redux.
                 </Card.Text>
                 <span className='devpage-button-row'>
                   <Button className='devpage-button' variant='secondary'>
                     <a
-                      href='http://www.coinsnapshot.com'
+                      href='https://mysterious-oasis-22555.herokuapp.com/'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -107,11 +105,11 @@ const DevPage = () => {
                   </Button>
                   <Button className='devpage-button' variant='secondary'>
                     <a
-                      href='https://github.com/marcusmcb/crypto-dashboard'
+                      href='https://github.com/marcusmcb/Group-Project-3'
                       target='_blank'
                       rel='noreferrer'
                     >
-                      Visit App
+                      View Code
                     </a>
                   </Button>
                 </span>
@@ -125,28 +123,18 @@ const DevPage = () => {
                 src='https://cdn3.iconfinder.com/data/icons/popular-cryptocurrencies-vol-2019-1/80/bnb-binance-cryptocurrency-token-coin-512.png'
               />
               <Card.Body>
-                <Card.Title>CoinSnapShot</Card.Title>
+                <Card.Title>Yelp Machine Learning Project</Card.Title>
                 <Card.Text>
-                  A responsive crypto dashboard app built with React and Amplify
-                  with data via the CoinGecko API.
+                  Group machine learning project where our team @ UCI utilized the Yelp API to predict the success of a restaurant based on its category, location, and price point using the Random Forest methodology.
                 </Card.Text>
-                <span className='devpage-button-row'>
+                <span className='devpage-button-row'>                  
                   <Button className='devpage-button' variant='secondary'>
                     <a
-                      href='http://www.coinsnapshot.com'
+                      href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
                       target='_blank'
                       rel='noreferrer'
                     >
-                      Visit App
-                    </a>
-                  </Button>
-                  <Button className='devpage-button' variant='secondary'>
-                    <a
-                      href='https://github.com/marcusmcb/crypto-dashboard'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      Visit App
+                      View Code
                     </a>
                   </Button>
                 </span>
