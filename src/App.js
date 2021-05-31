@@ -12,6 +12,8 @@ import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
+
+  // define page routes
   const routes = (
     <Switch>
       <Route path='/' exact>
