@@ -1,12 +1,15 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
   return (
     <div className='header' id='header-scroll'>      
         <Col className='header-title-row'>
+          <NavLink to='/'>
           <div className='header-title'>Marcus McBride</div>
+          </NavLink>
         </Col>
         <Row className='header-clickables g-0'>
         <Col className>

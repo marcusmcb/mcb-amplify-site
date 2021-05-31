@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
+
+import Navbar from '../shared/Navbar'
 import PageBody from './PageBody'
 import HighLightReel from './HighLightReel'
-import Footer from './Footer'
+import Footer from '../shared/Footer'
 
 import './mainpage.css'
 
