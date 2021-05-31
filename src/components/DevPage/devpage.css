@@ -8,13 +8,9 @@
 }
 
 .devpage-card {
-  width: auto !important;
-  /* border: 2px solid black !important; */
-  margin: 5%;
-  /* background: linear-gradient(rgba(109, 109, 109, 0.6), rgba(37, 37, 37, 0.6)); */
-  color: white;
-  /* background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
-  opacity: 1; */
+  width: auto !important;  
+  margin: 5%;  
+  color: white;  
 }
 
 .devpage-card-content-body {
@@ -22,14 +18,22 @@
 }
 
 .devpage-card-body-text-background {
-  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(#447dd3, #2a4e85);
   opacity: 1;
+}
+
+.devpage-card-title {    
+    position: absolute;         
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -100%)
 }
 
 .devpage-card img {
   width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  display: table;
+  margin: 0 auto;
 }
 
 .dev-page-body {
@@ -42,5 +46,5 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  border-bottom: 5px solid black;
+  
 }
