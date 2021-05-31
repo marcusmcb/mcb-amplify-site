@@ -34,6 +34,7 @@ const FooterPage = () => {
             <p>Send them to me at marcusmcb@gmail.com.</p>
             <br/>
             <br/>
+            <span>
             <h5 className='footer-page-socials'>
               <i className='fa fa-arrow-down'></i> all of my socials in one
               place <i className='fa fa-arrow-down'></i>
@@ -42,6 +43,7 @@ const FooterPage = () => {
               rel='noreferrer'>
               LinkTree
             </a>
+            </span>
           </div>
         </Card.Body>
       </Row>
