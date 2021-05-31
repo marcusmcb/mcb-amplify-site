@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import PageBody from './PageBody'
 import HighLightReel from './HighLightReel'
+import Footer from './Footer'
 
 import './mainpage.css'
 
@@ -11,6 +12,7 @@ const MainPage = () => {
       <Navbar />
       <PageBody />
       <HighLightReel />
+      <Footer />
     </div>
   )
 }
