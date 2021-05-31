@@ -32,18 +32,23 @@ const FooterPage = () => {
             </span>
             <h3 className='footer-page-title'>Errors or site issues?</h3>
             <p>Send them to me at marcusmcb@gmail.com.</p>
-            <br/>
-            <br/>
-            <span>
-            <h5 className='footer-page-socials'>
-              <i className='fa fa-arrow-down'></i> all of my socials in one
-              place <i className='fa fa-arrow-down'></i>
-            </h5>
-            <a className='linktree' href='https://linktr.ee/djmarcusmcb' target='_blank'
-              rel='noreferrer'>
-              LinkTree
-            </a>
-            </span>
+            <br />
+            <br />
+            
+              <h5 className='footer-page-socials'>
+                
+                <p>all of my socials in one place</p> <i className='fa fa-arrow-down'></i>
+                
+              </h5>
+              <a
+                className='linktree'
+                href='https://linktr.ee/djmarcusmcb'
+                target='_blank'
+                rel='noreferrer'
+              >
+                LinkTree
+              </a>
+            
           </div>
         </Card.Body>
       </Row>
