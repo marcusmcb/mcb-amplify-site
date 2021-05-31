@@ -15,7 +15,7 @@
   margin-left: auto;
   margin-right: auto;    
   padding: 5px;
-  background-color: #18543b !important;
+  background-color: #2a4e85 !important;
   display: flex;
   flex-direction:row;
   border-top: 1px solid darkslategray;
@@ -53,9 +53,10 @@
 }
 
 .icon {
-  padding: 10px;
+  padding: 12px;
   font-size: x-large;
-  color: black !important;  
+  color: black !important;
+  text-decoration: none !important;  
 }
 
 @media screen and (max-width: 540px) {

@@ -7,8 +7,7 @@
 }
 
 .carousel-element-two {
-  height: 200px;
-  object-fit: cover;  
+  height: 200px;  
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),

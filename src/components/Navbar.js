@@ -18,9 +18,12 @@ const Navbar = () => {
         </Col>
         <Col className='header-icons-row'>
           <div className='header-icons'>
-            <a className='icon' href='http://www.instagram.com/djmarcusmcb' target='_blank' rel='noreferrer'>
-              <i className='fa fa-instagram'></i>
+            <a className='icon' href='http://www.github.com/marcusmcb' target='_blank' rel='noreferrer'>
+              <i className='fa fa-github'></i>
             </a>
+            {/* <a className='icon' href='http://www.instagram.com/djmarcusmcb' target='_blank' rel='noreferrer'>
+              <i className='fa fa-instagram'></i>
+            </a> */}
             <a className='icon' href='http://www.twitter.com/djmarcusmcb' target='_blank' rel='noreferrer'>
               <i className='fa fa-twitter'></i>
             </a>

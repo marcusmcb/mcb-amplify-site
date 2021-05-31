@@ -1,5 +1,5 @@
 .page-body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(153, 153, 153, 0.6), rgba(68, 67, 67, 0.6)),
     url('https://orangecountylemonlaw.com/wp-content/uploads/2015/07/NobodyWalksinLA.1-1100x733.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,11 +10,18 @@
 
 .content-body {
   background: transparent !important;
+  padding: 10px;
 }
 
 .card-body-text {
   color: white;
   font-weight: 400;
+  padding: 2px;  
+}
+
+.card-body-text-background {
+  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  opacity: 1;   
 }
 
 .card-border {
