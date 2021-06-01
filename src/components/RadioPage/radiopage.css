@@ -1,3 +1,18 @@
-.radio-page-title {
-    text-align: center;
+.radio-page-body {
+    background-color: pink !important;    
+}
+
+.radio-page-body h1 {
+    margin-bottom: 0 !important;
+}
+
+.radio-page-transparency {
+    background: transparent !important;
+    border: none !important;
+    padding: 10px;
+    color: white;
+}
+
+.radio-page-card {
+    background: palevioletred;
 }
