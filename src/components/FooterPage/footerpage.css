@@ -21,7 +21,8 @@
 
 .footer-page-button-row,
 .arrow-icon {
-    margin: auto;   
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 .arrow-icon {
