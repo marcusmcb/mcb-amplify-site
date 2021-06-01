@@ -1,14 +1,47 @@
 .contact-icon {
-    color: black !important;
-    padding-right: 5px;
-    padding-top: 5px;
-    font-size: large !important;
+  padding-right: 5px;
+  padding-top: 5px;
+  font-size: large !important;
 }
 
 .contact-icon-row {
-    display: flex;
+  display: flex;
 }
 
 .contact-title {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-page-card-body {
+  border: none !important;
+}
+
+.contact-icon,
+.contact-title,
+.contact-icon-title {
+  color: white !important;
+}
+
+.contact-icon-title {
+  margin-left: 20px;
+}
+
+.contact-page-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');
+  background-position: center;
+}
+
+.contact-page-card-body {
+  background: linear-gradient(rgb(106, 123, 170), black);    
+  background-position: center;
+}
+
+.contact-list-backdrop,
+.contact-page-card-body {
+  margin: 50px 20px 50px 20px;  
+}
+
+.contact-page-transparency {
+  background: transparent;
 }
