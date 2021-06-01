@@ -34,21 +34,18 @@ const FooterPage = () => {
             <p>Send them to me at marcusmcb@gmail.com.</p>
             <br />
             <br />
-            
-              <h5 className='footer-page-socials'>
-                
-                <p>all of my socials in one place</p> <i className='fa fa-arrow-down'></i>
-                
-              </h5>
-              <a
-                className='linktree'
-                href='https://linktr.ee/djmarcusmcb'
-                target='_blank'
-                rel='noreferrer'
-              >
-                LinkTree
-              </a>
-            
+            <h5 className='footer-page-socials'>
+              <p>all of my socials in one place</p>
+              <i className='fa fa-arrow-down'></i>
+            </h5>
+            <a
+              className='linktree'
+              href='https://linktr.ee/djmarcusmcb'
+              target='_blank'
+              rel='noreferrer'
+            >
+              LinkTree
+            </a>
           </div>
         </Card.Body>
       </Row>
