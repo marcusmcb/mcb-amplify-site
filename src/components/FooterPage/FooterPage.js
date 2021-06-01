@@ -36,7 +36,7 @@ const FooterPage = () => {
             <br />
             <h5 className='footer-page-socials'>
               <p>all of my socials in one place</p>
-              <i className='fa fa-arrow-down'></i>
+              <i className='fa fa-arrow-down arrow-icon'></i>
             </h5>
             <a
               className='linktree'
