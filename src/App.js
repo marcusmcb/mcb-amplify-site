@@ -50,4 +50,5 @@ export default App
 // * remove underscores from fa social icons
 // * add padding on fa social icons for browser @max-width
 // * fix arrow spacing issue in footer page
+// * replace favicon with transparent logo bg
 

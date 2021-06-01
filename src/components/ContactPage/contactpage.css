@@ -1,3 +1,14 @@
-.contact-page-title {
-    text-align: center;
+.contact-icon {
+    color: black !important;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: large !important;
+}
+
+.contact-icon-row {
+    display: flex;
+}
+
+.contact-title {
+    padding-bottom: 20px;
 }
