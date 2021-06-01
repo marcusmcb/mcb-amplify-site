@@ -30,13 +30,13 @@ const FooterPage = () => {
                 </a>
               </Button>
             </span>
-            <h3 className='footer-page-title'>Errors or site issues?</h3>
+            <h3 className='footer-page-title error-title'>Errors or site issues?</h3>
             <p>Send them to me at marcusmcb@gmail.com.</p>
             <br />
             <br />
             <h5 className='footer-page-socials'>
               <p>all of my socials in one place</p>
-              <i className='fa fa-arrow-down arrow-icon'></i>
+              
             </h5>
             <a
               className='linktree'
