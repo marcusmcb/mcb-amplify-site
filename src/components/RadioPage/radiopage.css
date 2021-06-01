@@ -1,5 +1,5 @@
 .radio-page-body {
-    background-color: pink !important;    
+    background-color: #7c8c8f !important;    
 }
 
 .radio-page-body h1 {
@@ -11,8 +11,20 @@
     border: none !important;
     padding: 10px;
     color: white;
+    display: flex;
 }
 
 .radio-page-card {
-    background: palevioletred;
+    background: #8ea0a3;
 }
+
+.clubjam-logo {
+    display: flex;
+    width: 150px;      
+}
+
+.radio-page-card-title {
+    font-weight: 800;
+}
+
+/* @media screen and (max-width: ) */

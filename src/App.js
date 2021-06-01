@@ -52,4 +52,5 @@ export default App
 // * fix arrow spacing issue in footer page
 // * replace favicon with transparent logo bg
 // * text in contact page box expands beyond backing card on smaller viewports
+// * add IHM icon to clubjam card
 

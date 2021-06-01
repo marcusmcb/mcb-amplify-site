@@ -10,19 +10,25 @@ const RadioPage = () => {
     <div>
       <Navbar />
       <div className='radio-page-body'>
-        <Row>
-          <Col>
+        <Row className='g-0'>
+
+          <Col sm={6}>
             <Card className='radio-page-transparency'>
               <Card.Body className='radio-page-card'>
-                <Card.Title>Title</Card.Title>
-                <p>This is some text within a card
-                body.  There will be more in here once the info for this element has been filled out completely.</p>
+                <Card.Title>
+                  <span className='radio-page-card-title'>
+                    ClubJam on iHeartRadio
+                  </span>
+                </Card.Title>
+                <p>
+                  The streaming home for RadioMixes. Several of the weekly shows I produce now have their own dedicated streams in the iHeartRadio app.  Click/tap any of the logos to tune in!
+                </p>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <h1>Padio Rage</h1>
-          </Col>
+          <Col sm={6}>
+            
+          </Col>          
         </Row>
       </div>
 
