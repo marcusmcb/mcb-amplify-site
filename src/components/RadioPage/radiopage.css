@@ -2,10 +2,6 @@
   background-color: #7c8c8f !important;
 }
 
-.radio-page-body h1 {
-  margin-bottom: 0 !important;
-}
-
 .radio-page-transparency {
   background: transparent !important;
   border: none !important;
@@ -20,7 +16,8 @@
 
 .radio-page-card-title {
   font-weight: 800;
-  font-size: x-large;    
+  font-size: x-large;
+  text-align: center;    
 }
 
 /* @media screen and (max-width: ) */

@@ -2,6 +2,24 @@
   background-color: #7c8c8f !important;
 }
 
-.radio-page-body h1, p {
-  margin-bottom: 0 !important;
+.dev-page-transparency {
+  background: transparent !important;
+  border: none !important;
+  padding: 10px;
+  color: white;
+  display: flex;
+}
+
+.dev-page-card {
+  background: #8ea0a3;
+}
+
+.dev-page-card-title {
+  font-weight: 800;
+  font-size: x-large;      
+}
+
+.dev-page-card-title,
+.dev-page-text {
+  text-align: center;
 }
