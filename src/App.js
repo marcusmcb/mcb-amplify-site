@@ -45,11 +45,11 @@ export default App
 
 // FUTURE DEV:
 
-// * move images to S3 bucket
+// * move images to local, call as vars in return
 // * component organization
 // * remove underscores from fa social icons
 // * add padding on fa social icons for browser @max-width
-// * fix arrow spacing issue in footer page
 // * replace favicon with transparent logo bg
 // * add IHM icon to clubjam card
+// * 
 

@@ -37,3 +37,9 @@
   justify-content: space-evenly;
   padding: 10px;
 }
+
+@media screen and (max-width:280px) {
+  .dev-page-button-row {
+    padding: 0px;      
+  }
+}
