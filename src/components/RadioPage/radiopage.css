@@ -14,10 +14,17 @@
   background: #8ea0a3;
 }
 
+.radio-page-title,
 .radio-page-card-title {
   font-weight: 800;
   font-size: x-large;
   text-align: center;    
+}
+
+.radio-page-title {
+  color: yellow;
+  padding-top: 15px;
+  padding-bottom: 10;  
 }
 
 /* @media screen and (max-width: ) */

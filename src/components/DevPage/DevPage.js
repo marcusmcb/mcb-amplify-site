@@ -11,6 +11,9 @@ const DevPage = () => {
       <Navbar />
       <div className='dev-page-body'>
         <Row className='g-0'>
+          <span className='dev-page-title'>Development Projects</span>
+        </Row>
+        <Row className='g-0'>
           <Col sm={6}>
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
@@ -57,7 +60,7 @@ const DevPage = () => {
                 <span className='dev-page-button-row'>
                   <Button>
                     <a
-                      href='https://www.jspone.com'
+                      href='http://www.jspone.com'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -92,7 +95,7 @@ const DevPage = () => {
                 <span className='dev-page-button-row'>
                   <Button>
                     <a
-                      href='https://www.eventageousapp.com'
+                      href='https://mysterious-oasis-22555.herokuapp.com/'
                       target='_blank'
                       rel='noreferrer'
                     >

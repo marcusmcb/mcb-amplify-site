@@ -14,14 +14,22 @@
   background: #8ea0a3;
 }
 
+.dev-page-title,
 .dev-page-card-title {
   font-weight: 800;
   font-size: x-large;      
 }
 
 .dev-page-card-title,
-.dev-page-text {
+.dev-page-text,
+.dev-page-title {
   text-align: center;
+}
+
+.dev-page-title {
+  color: yellow;
+  padding-top: 15px;
+  padding-bottom: 10px;  
 }
 
 .dev-page-button-row {
