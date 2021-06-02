@@ -25,7 +25,7 @@ const ContactPage = () => {
                     <h4 className='contact-icon-title'>714-889-8793</h4>
                   </span>
                   <span className='contact-icon-row'>
-                    <i class='fa fa-envelope contact-icon'></i>
+                    <i className='fa fa-envelope contact-icon'></i>
                     <a href='mailto:marcusmcb@gmail.com'>
                       <h4 className='contact-icon-title'>
                         marcusmcb@gmail.com

@@ -13,8 +13,25 @@ const RadioPage = () => {
         <Row className='g-0'>
           <span className='radio-page-title'>Radio/Production Projects</span>
         </Row>
+
         <Row className='g-0'>
-          <Col sm={6}>
+          <Col sm={4}>
+            <Card className='radio-page-transparency'>
+              <Card.Body className='radio-page-card'>
+                <span className='radio-page-card-title'>
+                  <p>RadioMixes</p>
+                </span>
+                <p className='about-this-page-text'>
+                  A series of syndicated radio mixshows airing on commercial FM
+                  stations across North America. I'm the current producer,
+                  programmer and product manager for the Hot AC, Dance,
+                  Rhythmic, Retro and Old School series as well as seasonal
+                  production work throughout the year.
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
             <Card className='radio-page-transparency'>
               <Card.Body className='radio-page-card'>
                 <span className='radio-page-card-title'>
@@ -28,7 +45,18 @@ const RadioPage = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={6}></Col>
+          <Col sm={4}>
+            <Card className='radio-page-transparency'>
+              <Card.Body className='radio-page-card'>
+                <span className='radio-page-card-title'>
+                  <p>Full Tilt Remix LLC</p>
+                </span>
+                <p className='about-this-page-text'>
+                  Production manager, producer and site admin for Full Tilt Remix, a promotional DJ remix service I co-founded in 2005. Over one hundred releases to date since, available via download (originally CD).
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </div>
       <Footer />
