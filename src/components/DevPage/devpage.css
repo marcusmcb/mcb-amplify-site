@@ -1,42 +1,7 @@
 .dev-page-body {
-    background-color: rgb(106, 123, 170);
+  background-color: #7c8c8f !important;
 }
 
-.devpage-title {
-  text-align: center;
+.radio-page-body h1, p {
+  margin-bottom: 0 !important;
 }
-
-.devpage-card {
-  width: auto !important;  
-  margin: 5%;  
-  color: white;  
-}
-
-.devpage-card-content-body {
-  background: transparent !important;
-}
-
-.devpage-card-body-text-background {
-  background: linear-gradient(#447dd3, #2a4e85);
-  opacity: 1;
-}
-
-.devpage-card-overlay,
-.devpage-card-title {    
-    position: absolute;         
-    margin: 0;
-    max-height: 100px;    
-}
- 
-.devpage-card img {
-  width: 100px;
-  display: table;
-  margin: 0 auto;
-}
-
-.devpage-button-row {
-    display: flex;
-    justify-content: space-around;
-  }
-
-
