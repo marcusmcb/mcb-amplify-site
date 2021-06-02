@@ -12,12 +12,21 @@
 }
 
 .about-this-page-title p {
-  margin-top: 30px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .about-this-page-title,
 .about-this-page-text {
   text-align: center;
+}
+
+.about-this-page-text p {
+  padding: 10px;
+}
+
+.about-this-page-text a {
+  color: yellow !important;  
 }
 
 .footer-page-card {
@@ -29,7 +38,7 @@
 .footer-page-button {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px;
+  margin-top: 20px;
 }
 
 .footer-page-transparency {
@@ -39,3 +48,48 @@
   color: white;
   display: flex;
 }
+
+
+
+
+/* .footer-page-text,
+.footer-page-title {
+  text-align: center;
+  color: white;
+}
+
+.footer-page-title,
+.footer-page-socials {
+  padding: 30px;
+  font-weight: 600;
+}
+
+.error-title {
+  margin-top: 25px;
+}
+
+.footer-page-socials {
+  padding-bottom: 8px;
+}
+
+.footer-page-body {
+  background-color: #7c8c8f !important;
+  padding: 30px;
+}
+
+.footer-page-button-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-page-button-row {
+  padding: 20px;
+}
+
+.footer-page-button {
+  background-color: #2a4e85 !important;
+}
+
+.linktree {
+  color: yellow !important;
+} */

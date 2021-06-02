@@ -14,17 +14,13 @@ const DevPage = () => {
           <Col sm={6}>
             <p>ONE</p>
           </Col>
-          <Col sm={6}>
-            TWO
-          </Col>
+          <Col sm={6}>TWO</Col>
         </Row>
         <Row className='g-0'>
           <Col sm={6}>
             <p>THREE</p>
           </Col>
-          <Col sm={6}>
-            FOUR
-          </Col>
+          <Col sm={6}>FOUR</Col>
         </Row>
       </div>
       <Footer />

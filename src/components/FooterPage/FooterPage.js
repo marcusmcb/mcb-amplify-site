@@ -27,8 +27,7 @@ const FooterPage = () => {
                 </span>
                 <div className='footer-page-button'>
                   <Button>
-                    <a
-                      variant='secondary'
+                    <a                      
                       href='https://github.com/marcusmcb/mcb-amplify-site'
                       target='_blank'
                       rel='noreferrer'
