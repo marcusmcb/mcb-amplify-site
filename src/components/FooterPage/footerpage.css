@@ -33,6 +33,7 @@
   background: #8ea0a3;
   width: 70%;
   margin: 0 auto;  
+  min-height: 79vh;  
 }
 
 .footer-page-button {
@@ -47,49 +48,5 @@
   padding: 10px;
   color: white;
   display: flex;
+  
 }
-
-
-
-
-/* .footer-page-text,
-.footer-page-title {
-  text-align: center;
-  color: white;
-}
-
-.footer-page-title,
-.footer-page-socials {
-  padding: 30px;
-  font-weight: 600;
-}
-
-.error-title {
-  margin-top: 25px;
-}
-
-.footer-page-socials {
-  padding-bottom: 8px;
-}
-
-.footer-page-body {
-  background-color: #7c8c8f !important;
-  padding: 30px;
-}
-
-.footer-page-button-row {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer-page-button-row {
-  padding: 20px;
-}
-
-.footer-page-button {
-  background-color: #2a4e85 !important;
-}
-
-.linktree {
-  color: yellow !important;
-} */
