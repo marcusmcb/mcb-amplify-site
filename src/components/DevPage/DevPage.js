@@ -21,6 +21,26 @@ const DevPage = () => {
                   A responsive, mobile-first crypto dashboard app built with
                   React and Amplify.
                 </p>
+                <span className='dev-page-button-row'>
+                  <Button>
+                    <a
+                      href='https://www.coinsnapshot.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View App
+                    </a>
+                  </Button>
+                  <Button>
+                    <a
+                      href='https://github.com/marcusmcb/crypto-dashboard'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
           </Col>
@@ -34,11 +54,31 @@ const DevPage = () => {
                   A browser-based drum machine app featuring MIDI/velocity
                   implementation built with Javascript.
                 </p>
+                <span className='dev-page-button-row'>
+                  <Button>
+                    <a
+                      href='https://www.jspone.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View App
+                    </a>
+                  </Button>
+                  <Button>
+                    <a
+                      href='https://github.com/marcusmcb/JS-Drum-Machine'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
           </Col>
         </Row>
-        <Row className='g-0'>
+        <Row className='g-0 dev-page-row'>
           <Col sm={6}>
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
@@ -46,8 +86,29 @@ const DevPage = () => {
                   <p>Eventageous</p>
                 </span>
                 <p className='dev-page-text'>
-                  A social networking app for live event professionals built with the MERN stack and Redux.
+                  A social networking app for live event professionals built
+                  with the MERN stack and Redux.
                 </p>
+                <span className='dev-page-button-row'>
+                  <Button>
+                    <a
+                      href='https://www.eventageousapp.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View App
+                    </a>
+                  </Button>
+                  <Button>
+                    <a
+                      href='https://github.com/marcusmcb/Eventageous'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
           </Col>
@@ -58,8 +119,22 @@ const DevPage = () => {
                   <p>Yelp Machine Learning Project</p>
                 </span>
                 <p className='dev-page-text'>
-                  A Python/Flask-based machine learning project where our team @ UCI utilized the Yelp API to predict the success of a restaurant based on its category, location and price point using the Radnom Forest methodology.
+                  A Python/Flask-based machine learning project where our team @
+                  UCI utilized the Yelp API to predict the success of a
+                  restaurant based on its category, location and price point
+                  using the Radnom Forest methodology.
                 </p>
+                <span className='dev-page-button-row'>
+                  <Button>
+                    <a
+                      href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>                  
+                </span>
               </Card.Body>
             </Card>
           </Col>
