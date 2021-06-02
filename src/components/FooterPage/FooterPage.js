@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Card, Button } from 'react-bootstrap'
+import { Row, Col, Card, Button } from 'react-bootstrap'
 
 import Navbar from '../shared/Navbar'
 import Footer from '../shared/Footer'
@@ -8,8 +8,51 @@ import './footerpage.css'
 
 const FooterPage = () => {
   return (
-    <div className='footer-page'>
+    <div>
       <Navbar />
+      <div className='footer-page-body'>
+        <Row className='g-0'>
+          <Col sm={12}>
+            <Card className='footer-page-transparency'>
+              <Card.Body className='footer-page-card'>
+                <span className='about-this-page-title'>
+                  <p>About This Site</p>
+                </span>
+                <span className='about-this-page-text'>
+                  <p>
+                    Built with React and Amplify and a lot of custom
+                    CSS.
+                  </p>
+                  <p>
+                    Mobile-first responsive design tested in iOS, Chrome and
+                    Safari.
+                  </p>
+                </span>
+                <div className='footer-page-button'>
+                  <Button>
+                    <a
+                      variant='secondary'
+                      href='https://github.com/marcusmcb/mcb-amplify-site'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </div>
+                <span className='about-this-page-title'>
+                  <p>Errors or site issues?</p>
+                </span>
+                <span className='about-this-page-text'>
+                <p>Send them to me: <a href='mailto:marcusmcb@gmail.com'>marcusmcb@gmail.com</a></p>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <Footer />
+      {/* <Navbar />
       <Row className='footer-page-body g-0'>
         <Card.Body>
           <h1 className='footer-page-title'>About This Site</h1>
@@ -30,13 +73,14 @@ const FooterPage = () => {
                 </a>
               </Button>
             </span>
-            <h3 className='footer-page-title error-title'>Errors or site issues?</h3>
+            <h3 className='footer-page-title error-title'>
+              Errors or site issues?
+            </h3>
             <p>Send them to me at marcusmcb@gmail.com.</p>
             <br />
             <br />
             <h5 className='footer-page-socials'>
               <p>all of my socials in one place</p>
-              
             </h5>
             <a
               className='linktree'
@@ -49,7 +93,7 @@ const FooterPage = () => {
           </div>
         </Card.Body>
       </Row>
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

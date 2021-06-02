@@ -11,27 +11,23 @@ const RadioPage = () => {
       <Navbar />
       <div className='radio-page-body'>
         <Row className='g-0'>
-
           <Col sm={6}>
             <Card className='radio-page-transparency'>
               <Card.Body className='radio-page-card'>
-                <Card.Title>
-                  <span className='radio-page-card-title'>
-                    ClubJam on iHeartRadio
-                  </span>
-                </Card.Title>
-                <p>
-                  The streaming home for RadioMixes. Several of the weekly shows I produce now have their own dedicated streams in the iHeartRadio app.  Click/tap any of the logos to tune in!
+                <span className='radio-page-card-title'>
+                  <p>ClubJam on iHeartRadio</p>
+                </span>
+                <p className='about-this-page-text'>
+                  The streaming home for RadioMixes. Several of the weekly shows
+                  I produce now each have their own dedicated stream/channel in
+                  the iHeartRadio app. Click or tap any of the logos to tune in!
                 </p>
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={6}>
-            
-          </Col>          
+          <Col sm={6}></Col>
         </Row>
       </div>
-
       <Footer />
     </div>
   )

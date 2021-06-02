@@ -1,30 +1,26 @@
 .radio-page-body {
-    background-color: #7c8c8f !important;    
+  background-color: #7c8c8f !important;
 }
 
 .radio-page-body h1 {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .radio-page-transparency {
-    background: transparent !important;
-    border: none !important;
-    padding: 10px;
-    color: white;
-    display: flex;
+  background: transparent !important;
+  border: none !important;
+  padding: 10px;
+  color: white;
+  display: flex;
 }
 
 .radio-page-card {
-    background: #8ea0a3;
-}
-
-.clubjam-logo {
-    display: flex;
-    width: 150px;      
+  background: #8ea0a3;
 }
 
 .radio-page-card-title {
-    font-weight: 800;
+  font-weight: 800;
+  font-size: x-large;    
 }
 
 /* @media screen and (max-width: ) */
