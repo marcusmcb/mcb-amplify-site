@@ -1,47 +1,34 @@
-.contact-icon {
-  padding-right: 5px;
-  padding-top: 5px;
-  font-size: large !important;
-}
-
-.contact-icon-row {
-  display: flex;
-}
-
-.contact-title {
-  padding-bottom: 20px;
-}
-
-.contact-page-card-body {
-  border: none !important;
-}
-
-.contact-icon,
-.contact-title,
-.contact-icon-title {
-  color: white !important;
-}
-
-.contact-icon-title {
-  margin-left: 20px;
-}
-
 .contact-page-body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');
   background-position: center;
-}
-
-.contact-page-card-body {
-  background: linear-gradient(rgb(106, 123, 170), black);    
-  background-position: center;
-}
-
-.contact-list-backdrop,
-.contact-page-card-body {
-  margin: 50px 20px 50px 20px;  
+  min-height: 80vh;  
 }
 
 .contact-page-transparency {
-  background: #8ea0a3;
+  background: transparent !important;
+}
+
+.contact-card-body {
+  background: transparent !important;  
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+.contact-card-text-background {
+  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  opacity: 1;   
+}
+
+.contact-card-text {
+  color: white;
+  font-weight: 400;  
+}
+
+.contact-card-title {
+  font-size: x-large; 
+  padding: 2px;
 }
