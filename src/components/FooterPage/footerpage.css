@@ -1,6 +1,9 @@
 .footer-page-body {
-  background-color: #7c8c8f !important;
-}
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(68, 67, 67, 0.6)),
+    url('../../images/nickel-diner.jpg');
+  background-size:cover;  
+  background-position: right bottom;
+  }
 
 .footer-page-body h1 {
   margin-bottom: 0 !important;
@@ -30,16 +33,16 @@
 }
 
 .footer-page-card {
-  background: #8ea0a3;
+  
   width: 70%;
   margin: 0 auto;  
-  min-height: 79vh;  
+  min-height: 100vh;  
 }
 
 .footer-page-button {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 20px;  
 }
 
 .footer-page-transparency {
@@ -47,6 +50,9 @@
   border: none !important;
   padding: 10px;
   color: white;
-  display: flex;
-  
+  display: flex;  
+}
+
+.button-color:hover a {
+  color: black !important;
 }

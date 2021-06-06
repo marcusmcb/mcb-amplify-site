@@ -45,11 +45,11 @@ const Navbar = () => {
             </a>
             <a
               className='icon'
-              href='http://www.twitch.tv/djmarcusmcb'
+              href='http://www.instagram.com/djmarcusmcb'
               target='_blank'
               rel='noreferrer'
             >
-              <i className='fa fa-twitch'></i>
+              <i className='fa fa-instagram'></i>
             </a>
           </div>
         </Col>

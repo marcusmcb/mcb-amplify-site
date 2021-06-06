@@ -19,14 +19,14 @@ const FooterPage = () => {
                   <p>About This Site</p>
                 </span>
                 <span className='about-this-page-text'>
-                  <p>Built with React and Amplify and a lot of custom CSS.</p>
+                  <p>Built with React, Amplify, Bootstrap and a lot of CSS.</p>
                   <p>
                     Mobile-first responsive design tested in iOS, Chrome and
                     Safari.
                   </p>
                 </span>
                 <div className='footer-page-button'>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a                      
                       href='https://github.com/marcusmcb/mcb-amplify-site'
                       target='_blank'

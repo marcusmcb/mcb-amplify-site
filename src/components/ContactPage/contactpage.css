@@ -43,6 +43,10 @@
   margin-right: 10px;
 }
 
+.contact-icon {
+  color: lightyellow;
+}
+
 @media screen and (max-width: 470px) {
   .contact-card-text-background {
     background: none;

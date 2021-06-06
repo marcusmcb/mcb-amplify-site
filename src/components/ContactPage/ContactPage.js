@@ -22,7 +22,7 @@ const ContactPage = () => {
               </div>
               <div className='contact-card-text contact-item'>
                 <a href='mailto:marcusmcb@gmail.com'>
-                  <i className='fa fa-envelope'></i>
+                  <i className='contact-icon fa fa-envelope'></i>
                 </a>
                 <p>marcusmcb@gmail.com</p>
               </div>
@@ -32,7 +32,7 @@ const ContactPage = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i className='fa fa-linkedin'></i>
+                  <i className='contact-icon fa fa-linkedin'></i>
                 </a>
                 <p>LinkedIn</p>
               </div>
@@ -42,7 +42,7 @@ const ContactPage = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i className='fa fa-link'></i>
+                  <i className='contact-icon fa fa-link'></i>
                 </a>
                 <p>Resume (doc)</p>
               </div>
@@ -52,7 +52,7 @@ const ContactPage = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <i className='fa fa-link'></i>
+                  <i className='contact-icon fa fa-link'></i>
                 </a>
                 <p>Resume (pdf)</p>
               </div>
