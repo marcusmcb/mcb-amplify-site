@@ -1,5 +1,5 @@
 .page-body {
-  background-image: linear-gradient(rgba(153, 153, 153, 0.6), rgba(68, 67, 67, 0.6)),
+  background-image: linear-gradient(rgba(110, 110, 110, 0.6), rgba(68, 67, 67, 0.6)),
     url('https://orangecountylemonlaw.com/wp-content/uploads/2015/07/NobodyWalksinLA.1-1100x733.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,7 +20,7 @@
 }
 
 .card-body-text-background {
-  background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
+  background: linear-gradient(rgba(24, 24, 24, 0.6), rgba(0, 0, 0, 0.6));
   opacity: 1;   
 }
 
