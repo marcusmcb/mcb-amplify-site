@@ -31,4 +31,21 @@
 .contact-card-title {
   font-size: x-large; 
   padding: 2px;
+  margin-bottom: 30px;
 }
+
+.contact-item {
+  display: flex;
+  justify-content: center;  
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 470px) {
+  .contact-card-text-background {
+    background: none;
+  }
+}
+

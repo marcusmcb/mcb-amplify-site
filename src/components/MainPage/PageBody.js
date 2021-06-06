@@ -29,19 +29,31 @@ const PageBody = () => {
                 DJ based in Orange County, California.
                 <br />
                 <br />
-                In 2018, my career path took a shift to pursue web and tech development full time. Since then, I’ve worked on a variety of projects in various roles as a full-stack developer. I’m experienced in finding effective solutions to both creative hurdles and technical challenges.
+                In 2018, my career path took a shift to pursue web and tech
+                development full time. Since then, I’ve worked on a variety of
+                projects in various roles as a full-stack developer. I’m
+                experienced in finding effective solutions to both creative
+                hurdles and technical challenges.
                 <br />
                 <br />
-                My current strengths include Javascript, Node, React/Redux, Python (Flask/Jupyter), Ruby/Rails, SQL, Mongo/Atlas, AWS, Docker, data visualizations as well as various dev/data/workflow methodologies (REST, MVC, mobile-first, ETL, Agile/Scrum/Jira, Linux, IoT). 
+                My current strengths include Javascript, Node, React,
+                Python (Flask/Jupyter), Ruby/Rails, CSS/SASS, SQL, Mongo/Atlas, AWS,
+                data visualizations as well as various dev/data/workflow
+                methodologies (responsive design, IoT, REST, MVC, ETL, Agile/Scrum/Jira,
+                Git, CI/CD).
                 <br />
                 <br />
-                My experience as a content producer, programmer, and project manager in the commercial broadcast industry for over two decades has driven me to be detail-oriented and deadline-driven. 
+                My experience as a content producer, programmer, and project
+                manager in the commercial broadcast industry for over two
+                decades has driven me to be detail-oriented and deadline-driven.
                 <br />
                 <br />
-                You can view samples of and more info about my work on their respective pages.
+                You can view samples of and more info about my work on their
+                respective pages.
                 <br />
                 <br />
-                Please feel free to reach out with any questions, feedback or inquiries.
+                Please feel free to reach out with any questions, feedback or
+                inquiries.
               </Card.Text>
             </Card.Body>
           </Card>
