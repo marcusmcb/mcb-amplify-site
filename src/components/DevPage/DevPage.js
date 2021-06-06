@@ -142,6 +142,65 @@ const DevPage = () => {
             </Card>
           </Col>
         </Row>
+        <Row className='g-0 dev-page-row'>
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
+                  <p>US Rental Pricing Analysis</p>
+                </span>
+                <p className='dev-page-text'>
+                  A UCI data science project where our team utilized Python to
+                  collect, clean, and present data regarding rental pricing
+                  trends between 2010-2018.
+                </p>
+                <span className='dev-page-button-row'>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://drive.google.com/open?id=1sTXkgYq3ZMBJnhmSbzQk7MNvmdPXCO9X'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Slides
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/group-project-1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
+                  <p>MCB Archives</p>
+                </span>
+                <p className='dev-page-text'>
+                  A personal archive/media site that I'm currently developing for my broadcast/remix production work.  Built with React, Amplify, GraphQL, and Material UI.
+                </p>
+                <span className='dev-page-button-row'>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/mcb-amplify-site'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </div>
       <Footer />
     </div>

@@ -2,7 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.6)),
   url('../../images/code-image.jpeg');
   background-size:cover;  
-  background-position: right bottom;
+  background-position: right bottom;  
 }
 
 .dev-page-transparency {

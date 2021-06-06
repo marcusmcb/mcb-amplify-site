@@ -2,7 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');
   background-position: center;
-  min-height: 80vh;  
+  height: calc(100vh - 130px);
 }
 
 .contact-page-transparency {
@@ -10,7 +10,7 @@
 }
 
 .contact-card-body {
-  background: transparent !important;  
+  background: transparent !important;
   width: 50% !important;
   margin-left: auto;
   margin-right: auto;
@@ -20,23 +20,23 @@
 
 .contact-card-text-background {
   background: linear-gradient(rgba(37, 37, 37, 0.6), rgba(0, 0, 0, 0.6));
-  opacity: 1;   
+  opacity: 1;
 }
 
 .contact-card-text {
   color: white;
-  font-weight: 400;  
+  font-weight: 400;
 }
 
 .contact-card-title {
-  font-size: x-large; 
+  font-size: x-large;
   padding: 2px;
   margin-bottom: 30px;
 }
 
 .contact-item {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .contact-item i {
@@ -52,4 +52,3 @@
     background: none;
   }
 }
-
