@@ -25,7 +25,7 @@ const DevPage = () => {
                   React and Amplify.
                 </p>
                 <span className='dev-page-button-row'>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://www.coinsnapshot.com'
                       target='_blank'
@@ -34,7 +34,7 @@ const DevPage = () => {
                       View App
                     </a>
                   </Button>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/marcusmcb/crypto-dashboard'
                       target='_blank'
@@ -58,7 +58,7 @@ const DevPage = () => {
                   implementation built with Javascript.
                 </p>
                 <span className='dev-page-button-row'>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='http://www.jspone.com'
                       target='_blank'
@@ -67,7 +67,7 @@ const DevPage = () => {
                       View App
                     </a>
                   </Button>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/marcusmcb/JS-Drum-Machine'
                       target='_blank'
@@ -93,7 +93,7 @@ const DevPage = () => {
                   with the MERN stack and Redux.
                 </p>
                 <span className='dev-page-button-row'>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://mysterious-oasis-22555.herokuapp.com/'
                       target='_blank'
@@ -102,7 +102,7 @@ const DevPage = () => {
                       View App
                     </a>
                   </Button>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/marcusmcb/Eventageous'
                       target='_blank'
@@ -128,7 +128,7 @@ const DevPage = () => {
                   using the Radnom Forest methodology.
                 </p>
                 <span className='dev-page-button-row'>
-                  <Button>
+                  <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
                       target='_blank'
@@ -136,7 +136,7 @@ const DevPage = () => {
                     >
                       View Code
                     </a>
-                  </Button>                  
+                  </Button>
                 </span>
               </Card.Body>
             </Card>

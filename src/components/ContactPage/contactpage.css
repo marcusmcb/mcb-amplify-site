@@ -43,8 +43,8 @@
   margin-right: 10px;
 }
 
-.contact-icon {
-  color: lightyellow;
+.contact-icon:hover {
+  color: yellow !important;
 }
 
 @media screen and (max-width: 470px) {

@@ -1,7 +1,9 @@
 .radio-page-body {
   /* background-color: #7c8c8f !important; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(68, 67, 67, 0.6)),
-    url('../../images/radio-dial-backlit.jpg');
+    url('../../images/phone.jpg');
+  background-size: cover;
+  background-position: left top;
 }
 
 .radio-page-transparency {
@@ -12,6 +14,14 @@
   display: flex;
 }
 
+.radio-page-bio {
+  color: white;
+  text-align: center;
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .radio-page-card {
   background: #41494b;
 }
@@ -20,13 +30,13 @@
 .radio-page-card-title {
   font-weight: 800;
   font-size: x-large;
-  text-align: center;    
+  text-align: center;
 }
 
 .radio-page-title {
   color: yellow;
   padding-top: 15px;
-  padding-bottom: 10px;  
+  padding-bottom: 10px;
 }
 
 .clubjam-icons {
@@ -42,4 +52,19 @@
   background: white !important;
 }
 
+.click-tap-text {
+  font-size: small;
+  color: yellow;
+}
+
+.icon-hover {
+  background-color: black;
+  border: solid #41494b;
+  border-width: thin;
+}
+
+.icon-hover:hover {
+  border: solid white;
+  border-width: thin;
+}
 /* @media screen and (max-width: ) */

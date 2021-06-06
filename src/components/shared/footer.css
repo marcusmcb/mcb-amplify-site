@@ -1,6 +1,6 @@
 .footer {
     display: block;
-    background-color: #2a4e85 !important;    
+    background-color: #122e4e !important;
     border-top: 5px solid black;
     padding: 15px;       
 }
@@ -9,5 +9,9 @@
     font-size: small; 
     color: white !important;
     text-align: center;
+}
+
+.footer-text:hover {
+    color: yellow !important;
 }
 

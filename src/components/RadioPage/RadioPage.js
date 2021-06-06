@@ -20,6 +20,13 @@ const RadioPage = () => {
         <Row className='g-0'>
           <div className='radio-page-title'>Radio/Production Projects</div>
         </Row>
+        <Row className='g-0'>
+          <p className='radio-page-bio'>
+            On-air. Production. Programming. Syndication. Streaming. I've had
+            the good fortune to do it all over the past two-plus decades. Below,
+            you'll find my current broadcast and production projects.
+          </p>
+        </Row>
 
         <Row className='g-0'>
           <Col sm={4}>
@@ -36,9 +43,9 @@ const RadioPage = () => {
                     Rhythmic, Retro and Old School series as well as seasonal
                     production work throughout the year.
                   </p>
-                  <p>Click/tap below to visit the RadioMixes site.</p>
+                  
                 </div>
-                <div>
+                <div className='icon-hover'>
                   <a
                     href='https://jamtraxx.com/radiomixes/'
                     target='_blank'
@@ -65,7 +72,7 @@ const RadioPage = () => {
                     also have carriage via HD subchannels in markets throughout
                     North America.
                   </p>
-                  <p>Click or tap any of the logos to tune in.</p>
+                  <p className='click-tap-text'>Click or tap any of the logos to tune in.</p>
                 </div>
                 <div className='clubjam-icons'>
                   <a
@@ -115,14 +122,14 @@ const RadioPage = () => {
                 </div>
                 <div className='about-this-page-text'>
                   <p>
-                    Production manager, producer and site admin for Full Tilt
+                    Production manager, producer/remixer and site admin for Full Tilt
                     Remix, a promotional DJ remix service I co-founded in 2005.
                     Over one hundred releases to date since, available via
                     download (originally CD).
                   </p>
-                  <p>Click or tap below to visit the FTR site.</p>
+                  
                 </div>
-                <div>
+                <div className='icon-hover'>
                   <a
                     href='https://www.fulltiltremix.com'
                     target='_blank'

@@ -17,7 +17,10 @@ const ContactPage = () => {
               <Card.Text className='contact-card-text'>
                 <div className='contact-card-title'>Contact:</div>
               </Card.Text>
-              <div className='contact-card-text'>
+              <div className='contact-card-text contact-item'>
+                <a href='tel:714-889-8793'>
+                  <i className='contact-icon fa fa-phone'></i>
+                </a>
                 <p>714-889-8793</p>
               </div>
               <div className='contact-card-text contact-item'>
