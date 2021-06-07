@@ -2,7 +2,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');
   background-position: center;
-  height: calc(100vh - 130px);
+  height: calc(100vh - 140px);
 }
 
 .contact-page-transparency {

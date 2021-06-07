@@ -4,6 +4,7 @@
     url('../../images/phone.jpg');
   background-size: cover;
   background-position: left top;
+  background-attachment: fixed;  
 }
 
 .radio-page-transparency {

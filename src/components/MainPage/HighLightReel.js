@@ -13,7 +13,7 @@ const HighLightReel = () => {
           <Carousel.Caption className='carousel-element-caption-left'>
             <NavLink to='/dev'>
               <h3>Development</h3>
-              <p>View my apps & code.</p>
+              <p>Sites, apps & code I've written.</p>
             </NavLink>
           </Carousel.Caption>
         </Carousel.Item>

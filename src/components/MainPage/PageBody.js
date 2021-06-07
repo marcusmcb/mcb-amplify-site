@@ -39,8 +39,7 @@ const PageBody = () => {
                 My toolbox includes Javascript, Node, React/Redux, Python
                 (Flask/Jupyter), Ruby/Rails, CSS, SQL, Mongo/Atlas, AWS, data
                 visualizations as well as various related methodologies
-                (responsive design, APIs, CI/CD, MVC, ETL, Agile/Scrum/Jira,
-                Git, CI/CD).
+                (responsive design, APIs, CI/CD, Git, MVC, ETL, Agile/Scrum/Jira).
                 <br />
                 <br />
                 My experience as a content producer, programmer, and project

@@ -20,6 +20,7 @@
   flex-direction: row;
   border-top: 1px solid darkslategray;
   border-bottom: 5px solid black;
+  height: 80px;
 }
 
 #header-scroll {
@@ -91,5 +92,11 @@
   .icon {
     padding: 5px;
     font-size: large;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    height: auto;
   }
 }

@@ -8,8 +8,9 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid black;    
 }
+
 
 .content-body {
   background: transparent !important;

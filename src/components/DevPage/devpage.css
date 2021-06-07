@@ -2,7 +2,9 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.6)),
     url('../../images/code-image.jpg');
   background-size: cover;
-  background-position: right bottom;
+  background-attachment: fixed;  
+  background-position: right bottom;  
+  height: auto;
 }
 
 .dev-page-transparency {
@@ -15,6 +17,7 @@
 
 .dev-page-card {
   background: #41494b;
+  padding: 20px !important;
 }
 
 .dev-page-title,
