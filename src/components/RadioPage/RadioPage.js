@@ -29,7 +29,7 @@ const RadioPage = () => {
         </Row>
 
         <Row className='g-0'>
-          <Col sm={4}>
+          <Col sm={6}>
             <Card className='radio-page-transparency'>
               <Card.Body className='radio-page-card'>
                 <div className='radio-page-card-title'>
@@ -55,9 +55,33 @@ const RadioPage = () => {
                 </div>
               </Card.Body>
             </Card>
+            <Card className='radio-page-transparency'>
+              <Card.Body className='radio-page-card'>
+                <div className='radio-page-card-title'>
+                  <p>Full Tilt Remix</p>
+                </div>
+                <div className='about-this-page-text'>
+                  <p>
+                    Production manager, producer/remixer and site admin for Full
+                    Tilt Remix, a promotional DJ remix service I co-founded in
+                    2005. Over one hundred releases to date since, available via
+                    download (originally CD).
+                  </p>
+                </div>
+                <div className='icon-hover'>
+                  <a
+                    href='https://www.fulltiltremix.com'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <Card.Img src={ftrlogo} />
+                  </a>
+                </div>
+              </Card.Body>
+            </Card>
           </Col>
 
-          <Col sm={4}>
+          <Col sm={6}>
             <Card className='radio-page-transparency'>
               <Card.Body className='radio-page-card'>
                 <div className='radio-page-card-title'>
@@ -114,49 +138,6 @@ const RadioPage = () => {
               </Card.Body>
             </Card>
           </Col>
-
-          <Col sm={4}>
-            <Card className='radio-page-transparency'>
-              <Card.Body className='radio-page-card'>
-                <div className='radio-page-card-title'>
-                  <p>Full Tilt Remix</p>
-                </div>
-                <div className='about-this-page-text'>
-                  <p>
-                    Production manager, producer/remixer and site admin for Full
-                    Tilt Remix, a promotional DJ remix service I co-founded in
-                    2005. Over one hundred releases to date since, available via
-                    download (originally CD).
-                  </p>
-                </div>
-                <div className='icon-hover'>
-                  <a
-                    href='https://www.fulltiltremix.com'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <Card.Img src={ftrlogo} />
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          {/* <Col sm={4}>
-            <Card className='radio-page-transparency'>
-              <Card.Body className='radio-page-card'>
-                <div className='radio-page-card-title'>
-                  <p>Full Tilt Remix LLC</p>
-                </div>
-                <p className='about-this-page-text'>
-                  Production manager, producer and site admin for Full Tilt
-                  Remix, a promotional DJ remix service I co-founded in 2005.
-                  Over one hundred releases to date since, available via
-                  download (originally CD).
-                </p>
-              </Card.Body>
-            </Card>
-          </Col> */}
         </Row>
       </div>
       <Footer />
