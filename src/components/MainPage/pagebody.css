@@ -8,12 +8,12 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  border-bottom: 5px solid black;    
+  border-bottom: 5px solid black;
 }
 
 .content-body {
   background: transparent !important;
-  padding: 10px;
+  padding: 20px;
 }
 
 .card-body-text {
@@ -24,7 +24,7 @@
 
 .card-body-text-background {
   background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(0, 0, 0, 0.6));
-  opacity: 1;  
+  opacity: 1;
 }
 
 .card-border {

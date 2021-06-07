@@ -44,10 +44,9 @@ export default App
 
 // FUTURE DEV:
 
-// * move images to local, call as vars in return
 // * component organization
 // * remove underscores from fa social icons
 // * add padding on fa social icons for browser @max-width
 // * replace favicon with transparent logo bg
 // * add IHM icon to clubjam card
-// *
+
