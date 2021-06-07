@@ -8,29 +8,30 @@ const HighLightReel = () => {
   return (
     <div className='carousel-contents'>
       <Carousel fade>
-        <Carousel.Item>          
+        <Carousel.Item>
           <span className='d-block w-100 carousel-element-one'></span>
           <Carousel.Caption className='carousel-element-caption-left'>
-            <NavLink to='/radio'><h3>Broadcast</h3>
-            <p>More about my production work.</p>
-            </NavLink>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-        <span className='d-block w-100 carousel-element-two'></span>
-          <Carousel.Caption>
             <NavLink to='/dev'>
-            <h3>Development</h3>
-            <p>View samples of my work.</p>
+              <h3>Development</h3>
+              <p>View my apps & code.</p>
             </NavLink>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-        <span className='d-block w-100 carousel-element-three'></span>
+          <span className='d-block w-100 carousel-element-two'></span>
+          <Carousel.Caption>
+            <NavLink to='/radio'>
+              <h3>Radio</h3>
+              <p>Broadcast production, remixes & more.</p>
+            </NavLink>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <span className='d-block w-100 carousel-element-three'></span>
           <Carousel.Caption className='carousel-element-caption-right'>
-          <a href='https://linktr.ee/djmarcusmcb'>
-            <h3>DJ</h3>            
-            <p>Live events and beyond.</p>
+            <a href='https://linktr.ee/djmarcusmcb'>
+              <h3>DJ</h3>
+              <p>Live events, streaming, socials.</p>
             </a>
           </Carousel.Caption>
         </Carousel.Item>
