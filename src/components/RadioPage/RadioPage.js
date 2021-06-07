@@ -5,10 +5,10 @@ import Footer from '../shared/Footer'
 
 import rmlogo from '../../images/radiomixes-logo.png'
 import ftrlogo from '../../images/ftr-header.jpg'
-import cjdlogo from '../../images/cj-dance.PNG'
-import cjhlogo from '../../images/cj-hiphop.PNG'
-import cjrlogo from '../../images/cj-retro.PNG'
-import cjtlogo from '../../images/cj-throwback.PNG'
+import cjdlogo from '../../images/cj-dance.jpg'
+import cjhlogo from '../../images/cj-hiphop.jpg'
+import cjrlogo from '../../images/cj-retro.jpg'
+import cjtlogo from '../../images/cj-throwback.jpg'
 
 import './radiopage.css'
 

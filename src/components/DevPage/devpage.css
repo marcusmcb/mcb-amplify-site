@@ -1,6 +1,6 @@
 .dev-page-body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.6)),
-    url('../../images/code-image.jpeg');
+    url('../../images/code-image.jpg');
   background-size: cover;
   background-position: right bottom;
 }
