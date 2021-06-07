@@ -1,12 +1,7 @@
 .contact-page-body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');
-  background-position: center;
+    url('https://pbs.twimg.com/media/EzlfEH-VIAMdsHT?format=jpg&name=large');  
   height: calc(100vh - 140px);
-}
-
-.contact-page-transparency {
-  background: transparent !important;
 }
 
 .contact-card-body {
