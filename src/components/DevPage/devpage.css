@@ -3,7 +3,7 @@
     url('../../images/code-image.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: right bottom;  
+  background-position: right bottom;
 }
 
 .dev-page-transparency {
@@ -11,7 +11,7 @@
   border: none !important;
   padding: 20px;
   color: white;
-  display: flex;  
+  display: flex;
 }
 
 .dev-page-card {
@@ -35,6 +35,14 @@
   color: yellow;
   padding-top: 15px;
   padding-bottom: 10px;
+}
+
+.dev-page-bio {
+  color: white;
+  text-align: center;
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dev-page-button-row {

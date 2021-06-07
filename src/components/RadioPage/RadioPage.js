@@ -27,7 +27,6 @@ const RadioPage = () => {
             you'll find my current broadcast and production projects.
           </p>
         </Row>
-
         <Row className='g-0'>
           <Col sm={6}>
             <Card className='radio-page-transparency'>

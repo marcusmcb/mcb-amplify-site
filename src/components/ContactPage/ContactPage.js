@@ -21,14 +21,13 @@ const ContactPage = () => {
                 <a href='tel:714-889-8793' className='contact-row'>
                   <i className='fa fa-phone'></i>
                   <p>714-889-8793</p>
-                </a>                
+                </a>
               </div>
               <div className='contact-card-text contact-item'>
                 <a href='mailto:marcusmcb@gmail.com' className='contact-row'>
                   <i className='contact-icon fa fa-envelope'></i>
                   <p>marcusmcb@gmail.com</p>
                 </a>
-                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
@@ -40,7 +39,6 @@ const ContactPage = () => {
                   <i className='contact-icon fa fa-linkedin'></i>
                   <p>LinkedIn</p>
                 </a>
-                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
@@ -52,7 +50,6 @@ const ContactPage = () => {
                   <i className='contact-icon fa fa-link'></i>
                   <p>Resume (doc)</p>
                 </a>
-                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
@@ -64,7 +61,6 @@ const ContactPage = () => {
                   <i className='contact-icon fa fa-link'></i>
                   <p>Resume (pdf)</p>
                 </a>
-                
               </div>
             </Card.Body>
           </Card>

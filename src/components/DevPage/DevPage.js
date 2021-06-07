@@ -14,6 +14,12 @@ const DevPage = () => {
           <span className='dev-page-title'>Development Projects</span>
         </Row>
         <Row className='g-0'>
+          <p className='dev-page-bio'>
+            A mix of both front and back end development projects that I've
+            built or have contributed to recently.
+          </p>
+        </Row>
+        <Row className='g-0'>
           <Col sm={6}>
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
