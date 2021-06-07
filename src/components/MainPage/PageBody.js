@@ -35,12 +35,12 @@ const PageBody = () => {
                 experienced in finding effective solutions to both creative
                 hurdles and technical challenges.
                 <br />
-                <br />                
-                My toolbox includes Javascript,
-                Node, React/Redux, Python (Flask/Jupyter), Ruby/Rails, CSS, SQL,
-                Mongo/Atlas, AWS, data visualizations as well as various
-                related methodologies (responsive design, APIs, CI/CD,
-                MVC, ETL, Agile/Scrum/Jira, Git, CI/CD).
+                <br />
+                My toolbox includes Javascript, Node, React/Redux, Python
+                (Flask/Jupyter), Ruby/Rails, CSS, SQL, Mongo/Atlas, AWS, data
+                visualizations as well as various related methodologies
+                (responsive design, APIs, CI/CD, MVC, ETL, Agile/Scrum/Jira,
+                Git, CI/CD).
                 <br />
                 <br />
                 My experience as a content producer, programmer, and project

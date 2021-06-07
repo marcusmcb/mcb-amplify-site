@@ -184,7 +184,9 @@ const DevPage = () => {
                   <p>MCB Archives</p>
                 </span>
                 <p className='dev-page-text'>
-                  A personal archive/media site that I'm currently developing for my broadcast/remix production work.  Built with React, Amplify, GraphQL, and Material UI.
+                  A personal archive/media site that I'm currently developing
+                  for my broadcast/remix production work. Built with React,
+                  Amplify, GraphQL, and Material UI.
                 </p>
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>

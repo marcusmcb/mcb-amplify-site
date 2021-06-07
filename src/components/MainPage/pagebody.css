@@ -1,5 +1,8 @@
 .page-body {
-  background-image: linear-gradient(rgba(110, 110, 110, 0.6), rgba(68, 67, 67, 0.6)),
+  background-image: linear-gradient(
+      rgba(110, 110, 110, 0.6),
+      rgba(68, 67, 67, 0.6)
+    ),
     url('../../images/peltason.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,12 +19,12 @@
 .card-body-text {
   color: white;
   font-weight: 400;
-  padding: 2px;  
+  padding: 2px;
 }
 
 .card-body-text-background {
   background: linear-gradient(rgba(14, 14, 14, 0.6), rgba(0, 0, 0, 0.6));
-  opacity: 1;   
+  opacity: 1;
 }
 
 .card-border {

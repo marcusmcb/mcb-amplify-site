@@ -12,7 +12,6 @@ import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
-
   // define page routes
   const routes = (
     <Switch>
@@ -23,13 +22,13 @@ const App = () => {
         <FooterPage />
       </Route>
       <Route path='/dev'>
-        <DevPage/>
+        <DevPage />
       </Route>
       <Route path='/radio'>
-        <RadioPage/>
+        <RadioPage />
       </Route>
       <Route path='/contact'>
-        <ContactPage/>
+        <ContactPage />
       </Route>
     </Switch>
   )
@@ -51,5 +50,4 @@ export default App
 // * add padding on fa social icons for browser @max-width
 // * replace favicon with transparent logo bg
 // * add IHM icon to clubjam card
-// * 
-
+// *

@@ -43,7 +43,6 @@ const RadioPage = () => {
                     Rhythmic, Retro and Old School series as well as seasonal
                     production work throughout the year.
                   </p>
-                  
                 </div>
                 <div className='icon-hover'>
                   <a
@@ -72,7 +71,9 @@ const RadioPage = () => {
                     also have carriage via HD subchannels in markets throughout
                     North America.
                   </p>
-                  <p className='click-tap-text'>Click or tap any of the logos to tune in.</p>
+                  <p className='click-tap-text'>
+                    Click or tap any of the logos to tune in.
+                  </p>
                 </div>
                 <div className='clubjam-icons'>
                   <a
@@ -122,12 +123,11 @@ const RadioPage = () => {
                 </div>
                 <div className='about-this-page-text'>
                   <p>
-                    Production manager, producer/remixer and site admin for Full Tilt
-                    Remix, a promotional DJ remix service I co-founded in 2005.
-                    Over one hundred releases to date since, available via
+                    Production manager, producer/remixer and site admin for Full
+                    Tilt Remix, a promotional DJ remix service I co-founded in
+                    2005. Over one hundred releases to date since, available via
                     download (originally CD).
                   </p>
-                  
                 </div>
                 <div className='icon-hover'>
                   <a
