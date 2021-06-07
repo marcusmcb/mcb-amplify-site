@@ -38,7 +38,12 @@
   margin-right: 10px;
 }
 
-.contact-icon:hover {
+.contact-row {
+  display: flex;
+}
+
+.contact-row:hover,
+.contact-row:hover i {
   color: yellow !important;
 }
 

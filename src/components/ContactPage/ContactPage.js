@@ -18,46 +18,53 @@ const ContactPage = () => {
                 <div className='contact-card-title'>Contact:</div>
               </Card.Text>
               <div className='contact-card-text contact-item'>
-                <a href='tel:714-889-8793'>
-                  <i className='contact-icon fa fa-phone'></i>
-                </a>
-                <p>714-889-8793</p>
+                <a href='tel:714-889-8793' className='contact-row'>
+                  <i className='fa fa-phone'></i>
+                  <p>714-889-8793</p>
+                </a>                
               </div>
               <div className='contact-card-text contact-item'>
-                <a href='mailto:marcusmcb@gmail.com'>
+                <a href='mailto:marcusmcb@gmail.com' className='contact-row'>
                   <i className='contact-icon fa fa-envelope'></i>
+                  <p>marcusmcb@gmail.com</p>
                 </a>
-                <p>marcusmcb@gmail.com</p>
+                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
                   href='https://www.linkedin.com/in/marcusmcbride/'
                   target='_blank'
                   rel='noreferrer'
+                  className='contact-row'
                 >
                   <i className='contact-icon fa fa-linkedin'></i>
+                  <p>LinkedIn</p>
                 </a>
-                <p>LinkedIn</p>
+                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
                   href='https://docs.google.com/document/d/1byCRQW5EwasfBhFVrslPoleFimG4P9GCzrUfpg_wxQw/edit?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
+                  className='contact-row'
                 >
                   <i className='contact-icon fa fa-link'></i>
+                  <p>Resume (doc)</p>
                 </a>
-                <p>Resume (doc)</p>
+                
               </div>
               <div className='contact-card-text contact-item'>
                 <a
                   href='https://drive.google.com/file/d/1oZxNAKmymKCInhdEwMAMTMJOi1SN3ZmE/view?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
+                  className='contact-row'
                 >
                   <i className='contact-icon fa fa-link'></i>
+                  <p>Resume (pdf)</p>
                 </a>
-                <p>Resume (pdf)</p>
+                
               </div>
             </Card.Body>
           </Card>
