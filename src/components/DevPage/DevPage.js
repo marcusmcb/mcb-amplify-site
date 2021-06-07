@@ -191,7 +191,7 @@ const DevPage = () => {
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/marcusmcb/mcb-amplify-site'
+                      href='https://github.com/marcusmcb/mcb-archives'
                       target='_blank'
                       rel='noreferrer'
                     >
