@@ -17,10 +17,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <meta
-      name="description"
-      content="Portfolio site for Marcus McBride"
-    />
+    <meta name="description" content="Portfolio site for Marcus McBride" />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -39,6 +36,19 @@
     -->
     <title>MCB Portfolio</title>
   </head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-8WWDJQEKXJ"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+
+    gtag('config', 'G-8WWDJQEKXJ')
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
