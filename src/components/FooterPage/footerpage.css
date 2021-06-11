@@ -3,7 +3,7 @@
     url('../../images/nickel-diner.jpg');
   background-size: cover;
   background-position: right bottom;
-  /* height: calc(100vh - 131px); */
+  height: calc(100vh - 131px);
 }
 
 .footer-page-body h1 {
@@ -54,4 +54,10 @@
 
 .button-color:hover a {
   color: black !important;
+}
+
+@media screen and (max-width: 450px) {
+  .footer-page-body {
+    height: auto;
+  }
 }
