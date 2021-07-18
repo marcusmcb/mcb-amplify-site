@@ -31,7 +31,7 @@ const ContactPage = () => {
               </div>
               <div className='contact-card-text contact-item'>
                 <a
-                  href='https://www.linkedin.com/in/marcusmcbride/'
+                  href='https://www.linkedin.com/in/marcusmcbride-developer/'
                   target='_blank'
                   rel='noreferrer'
                   className='contact-row'
