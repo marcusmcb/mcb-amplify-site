@@ -148,6 +148,7 @@ const DevPage = () => {
             </Card>
           </Col>
         </Row>
+        
         <Row className='g-0 dev-page-row'>
           <Col sm={6}>
             <Card className='dev-page-transparency'>
@@ -198,6 +199,41 @@ const DevPage = () => {
                   <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/marcusmcb/mcb-archives'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className='g-0 dev-page-row'>
+          
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
+                  <p>Responsive Accordion</p>
+                </span>
+                <p className='dev-page-text'>
+                  A simple, responsive accordion/tabbed-navigation component built with JavaScript and CSS.
+                </p>
+                <span className='dev-page-button-row'>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://marcusmcb.github.io/responsive-accordion/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Component
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/responsive-accordion'
                       target='_blank'
                       rel='noreferrer'
                     >
