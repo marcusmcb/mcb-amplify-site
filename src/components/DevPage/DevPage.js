@@ -11,11 +11,11 @@ const DevPage = () => {
       <Navbar />
       <div className='dev-page-body'>
         <Row className='g-0'>
-          <span className='dev-page-title'>Development Projects</span>
+          <span className='dev-page-title'>Development Projects / Code Samples</span>
         </Row>
         <Row className='g-0'>
           <p className='dev-page-bio'>
-            A mix of both front and back end development projects that I've
+            A mix of both front and back end development projects and code snippets that I've
             built or have contributed to recently.
           </p>
         </Row>
@@ -234,6 +234,38 @@ const DevPage = () => {
                   <Button variant='outline-light' className='button-color'>
                     <a
                       href='https://github.com/marcusmcb/responsive-accordion'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
+                  <p>React List Component</p>
+                </span>
+                <p className='dev-page-text'>
+                  A simple, list/to-do component built with React.
+                </p>
+                <span className='dev-page-button-row'>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://master.dyh95hp9y2xj.amplifyapp.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Component
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/react-form-component'
                       target='_blank'
                       rel='noreferrer'
                     >
