@@ -1,20 +1,20 @@
-import React from 'react'
-import { Row, Col, Card, Image } from 'react-bootstrap'
-import './pagebody.css'
+import React from "react";
+import { Row, Col, Card, Image } from "react-bootstrap";
+import "./pagebody.css";
 
 const PageBody = () => {
   return (
-    <div className='page-body'>
-      <Row className='g-0 page-body-contents'>
+    <div className="page-body">
+      <Row className="g-0 page-body-contents">
         <Col sm={4}>
-          <Card className='card-border content-body'>
+          <Card className="card-border content-body">
             <Card.Body>
               <Image
-                className='mcb-logo'
-                variant='top'
-                src='https://avatars.githubusercontent.com/u/38328362?v=4'
-                alt='MCB Logo'
-                width='200'
+                className="mcb-logo"
+                variant="top"
+                src="https://avatars.githubusercontent.com/u/38328362?v=4"
+                alt="MCB Logo"
+                width="200"
                 fluid
                 roundedCircle
               />
@@ -22,29 +22,31 @@ const PageBody = () => {
           </Card>
         </Col>
         <Col md={8}>
-          <Card className='card-border content-body'>
-            <Card.Body className='card-body-text-background'>
-              <Card.Text className='card-body-text'>
+          <Card className="card-border content-body">
+            <Card.Body className="card-body-text-background">
+              <Card.Text className="card-body-text">
                 Marcus here. I'm a full-stack developer, broadcast producer and
                 DJ based in Orange County, California.
                 <br />
                 <br />
-                In 2018, my career path took a shift to pursue web and tech
-                development full time. Since then, I’ve worked on a variety of
-                projects in various roles as a full-stack developer. I’m
-                experienced in finding effective solutions to both creative
-                hurdles and technical challenges.
+                I've worked in digital media since the 90s, originally as a
+                broadcast programmer and producer before pivoting to focus my
+                energy on development full-time in 2018. 
                 <br />
                 <br />
-                My toolbox includes Javascript, Node, React/Redux, Python
-                (Flask/Jupyter), Ruby/Rails, CSS, SQL, Mongo/Atlas, AWS, data
-                visualizations as well as various related methodologies
-                (responsive design, APIs, CI/CD, Git, MVC, ETL, Agile/Scrum/Jira).
+                My toolbox includes Javascript, Node, React, Python
+                (Flask/Jupyter), Ruby/Rails, HTML/CSS, SQL/NoSQL (Mongo), AWS,
+                Git/Linux, dashboards and data visualizations. I'm a friend of
+                the command line, a fan of responsive design, and love wrangling
+                unruly API data. Builds, deploys, and containers spoken here
+                too.
                 <br />
                 <br />
-                My experience as a content producer, programmer, and project
-                manager in the commercial broadcast industry for over two
-                decades has driven me to be detail-oriented and deadline-driven.
+                Two-plus decades in the commercial broadcasting space have led
+                me towards accomplishing project goals in a detail-driven and
+                deadline-concious workflow.  In both paths I've
+                worked to find user-effective solutions to both creative hurdles
+                and technical challenges.
                 <br />
                 <br />
                 You can view samples of and more info about my work on their
@@ -59,7 +61,7 @@ const PageBody = () => {
         </Col>
       </Row>
     </div>
-  )
-}
+  );
+};
 
-export default PageBody
+export default PageBody;
