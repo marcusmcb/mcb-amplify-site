@@ -49,7 +49,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img src={rmlogo} />
+                    <Card.Img src={rmlogo} alt='RadioMixes Logo'/>
                   </a>
                 </div>
               </Card.Body>
@@ -73,7 +73,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img src={ftrlogo} />
+                    <Card.Img src={ftrlogo} alt='Full Tilt Remix Logo'/>
                   </a>
                 </div>
               </Card.Body>
@@ -105,7 +105,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img src={cjdlogo} />
+                    <Card.Img src={cjdlogo} alt='Club Jam Dance Logo'/>
                   </a>
                   <a
                     className='clubjam-icon'
@@ -113,7 +113,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img src={cjhlogo} />
+                    <Card.Img src={cjhlogo} alt='Club Jam Hip Hop Logo'/>
                   </a>
                 </div>
                 <div className='clubjam-icons'>
@@ -123,7 +123,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img src={cjrlogo} />
+                    <Card.Img src={cjrlogo} alt='Club Jam Retro Logo'/>
                   </a>
                   <a
                     className='clubjam-icon'
@@ -131,7 +131,7 @@ const RadioPage = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <Card.Img className='cjtLogo' src={cjtlogo} />
+                    <Card.Img className='cjtLogo' src={cjtlogo} alt='Club Jam Classic Hip Hop Logo'/>
                   </a>
                 </div>
               </Card.Body>
