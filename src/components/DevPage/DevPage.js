@@ -92,25 +92,24 @@ const DevPage = () => {
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
-                  <p>Eventageous</p>
+                  <p>RemixArkive (Twitter Bot)</p>
                 </span>
                 <p className='dev-page-text'>
-                  A social networking app for live event professionals built
-                  with the MERN stack and Redux.
+                  An automated bot script built with Node and the Twitter API that tweets out links to rare music.
                 </p>
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://mysterious-oasis-22555.herokuapp.com/'
+                      href='https://twitter.com/remixarkive'
                       target='_blank'
                       rel='noreferrer'
                     >
-                      View App
+                      Twitter Page
                     </a>
                   </Button>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/marcusmcb/Eventageous'
+                      href='https://github.com/marcusmcb/twit-bot'
                       target='_blank'
                       rel='noreferrer'
                     >

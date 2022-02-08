@@ -6,7 +6,7 @@ import './highlightreel.css'
 
 const HighLightReel = () => {
   return (
-    <div className='carousel-contents'>
+    <div>
       <Carousel fade>
         <Carousel.Item>
           <span className='d-block w-100 carousel-element-one'></span>

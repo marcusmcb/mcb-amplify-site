@@ -25,13 +25,16 @@ const PageBody = () => {
           <Card className="card-border content-body">
             <Card.Body className="card-body-text-background">
               <Card.Text className="card-body-text">
+                Greetings!  
+                <br />
+                <br />
                 Marcus here. I'm a full-stack developer, broadcast producer and
                 DJ based in Orange County, California.
                 <br />
                 <br />
                 I've worked in digital media since the 90s, originally as a
                 broadcast programmer and producer before pivoting to focus my
-                energy on development full-time in 2018. 
+                energy on development full-time in recent years. 
                 <br />
                 <br />
                 My toolbox includes Javascript, Node, React, Python
