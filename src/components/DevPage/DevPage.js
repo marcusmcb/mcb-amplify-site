@@ -11,12 +11,14 @@ const DevPage = () => {
       <Navbar />
       <div className='dev-page-body'>
         <Row className='g-0'>
-          <span className='dev-page-title'>Development Projects / Code Samples</span>
+          <span className='dev-page-title'>
+            Development Projects / Code Samples
+          </span>
         </Row>
         <Row className='g-0'>
           <p className='dev-page-bio'>
-            A mix of both front and back end development projects and code snippets that I've
-            built or have contributed to recently.
+            A mix of both front and back end development projects and code
+            snippets that I've built or have contributed to recently.
           </p>
         </Row>
         <Row className='g-0'>
@@ -95,7 +97,8 @@ const DevPage = () => {
                   <p>RemixArkive (Twitter Bot)</p>
                 </span>
                 <p className='dev-page-text'>
-                  An automated bot script built with Node and the Twitter API that tweets out links to rare music.
+                  An automated bot script built with Node and the Twitter API
+                  that tweets out links to rare music.
                 </p>
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
@@ -124,18 +127,38 @@ const DevPage = () => {
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
-                  <p>Yelp Machine Learning Project</p>
+                  <p>Twitch ChatBot</p>
                 </span>
                 <p className='dev-page-text'>
-                  A Python/Flask-based machine learning project where our team @
-                  UCI utilized the Yelp API to predict the success of a
-                  restaurant based on its category, location and price point
-                  using the Radnom Forest methodology.
-                </p>
+                  A bot script to create and manage custom chat commands for
+                  Twitch. You can view the command list below and test them in
+                  my Twitch channel, also below.
+                </p>                
+                <p className='dev-page-text'>
+                  Built with Node, TMI.js, and the Twitch API.
+                </p>                
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
+                      href='https://www.twitch.tv/djmarcusmcb'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Twitch Channel
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://marcusmcb.github.io/twitch-chat-commands/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Command List
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/twitch-chat-bot'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -147,7 +170,7 @@ const DevPage = () => {
             </Card>
           </Col>
         </Row>
-        
+
         <Row className='g-0 dev-page-row'>
           <Col sm={6}>
             <Card className='dev-page-transparency'>
@@ -187,17 +210,18 @@ const DevPage = () => {
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
-                  <p>MCB Archives</p>
+                  <p>Yelp Machine Learning Project</p>
                 </span>
                 <p className='dev-page-text'>
-                  A personal archive/media site that I'm currently developing
-                  for my broadcast/remix production work. Built with React,
-                  Amplify, GraphQL, and Material UI.
+                  A Python/Flask-based machine learning project where our team @
+                  UCI utilized the Yelp API to predict the success of a
+                  restaurant based on its category, location and price point
+                  using the Radnom Forest methodology.
                 </p>
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/marcusmcb/mcb-archives'
+                      href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -207,10 +231,9 @@ const DevPage = () => {
                 </span>
               </Card.Body>
             </Card>
-          </Col>
+          </Col>          
         </Row>
         <Row className='g-0 dev-page-row'>
-          
           <Col sm={6}>
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
@@ -218,7 +241,8 @@ const DevPage = () => {
                   <p>Responsive Accordion</p>
                 </span>
                 <p className='dev-page-text'>
-                  A simple, responsive accordion/tabbed-navigation component built with JavaScript and CSS.
+                  A simple, responsive accordion/tabbed-navigation component
+                  built with JavaScript and CSS.
                 </p>
                 <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
