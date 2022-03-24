@@ -26,6 +26,57 @@ const DevPage = () => {
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
+                  <p>!npChatbot for Serato & Twitch</p>
+                </span>
+                <p className='dev-page-text'>
+                  A chatbot script & app that allows Twitch viewers to interact with a live-streamer's Serato live playlist.
+                </p>
+                <p className='dev-page-text'>
+                  Built with Node, TMI.js, Axios, and Electron.
+                </p>
+                <span className='dev-page-button-row'>                  
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/serato-nowplaying-twitch'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
+                  <p>Philips Hue Control Commands for Twitch</p>
+                </span>
+                <p className='dev-page-text'>
+                  A chatbot script that adds interactive lighting control commands to your Twitch channel for your connected Hue devices.
+                </p>
+                <span className='dev-page-button-row'>                  
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/philips-hue-twitch-chat-control'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View Code
+                    </a>
+                  </Button>
+                </span>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className='g-0'>
+          <Col sm={6}>
+            <Card className='dev-page-transparency'>
+              <Card.Body className='dev-page-card'>
+                <span className='dev-page-card-title'>
                   <p>CoinSnapShot</p>
                 </span>
                 <p className='dev-page-text'>
