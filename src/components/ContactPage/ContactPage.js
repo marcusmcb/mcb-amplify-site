@@ -53,7 +53,7 @@ const ContactPage = () => {
               </div>
               <div className='contact-card-text contact-item'>
                 <a
-                  href='https://drive.google.com/file/d/1qVKJh0Eov9dE-_b-H0SD_WUhX13BjknI/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1nNXqiQm1c7gw1PZTUPIvXr_QfbIdLNhD/view?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
                   className='contact-row'
