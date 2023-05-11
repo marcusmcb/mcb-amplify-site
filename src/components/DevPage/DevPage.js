@@ -244,15 +244,7 @@ const DevPage = () => {
                       View Slides
                     </a>
                   </Button>
-                  <Button variant='outline-light' className='button-color'>
-                    <a
-                      href='https://github.com/marcusmcb/group-project-1'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      View Code
-                    </a>
-                  </Button>
+                  
                 </span>
               </Card.Body>
             </Card>
