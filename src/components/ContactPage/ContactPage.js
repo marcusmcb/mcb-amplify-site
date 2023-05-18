@@ -42,7 +42,7 @@ const ContactPage = () => {
               </div>
               <div className='contact-card-text contact-item'>
                 <a
-                  href='https://docs.google.com/document/d/1HCi-wo3nl6cZliPU_vokSjvGshk__QlFkWCCVxXtsNA/edit?usp=sharing'
+                  href='https://docs.google.com/document/d/11S9WkHfks7a6gXiNPZVTDJgkRnEDjx7PHnsJDLBmaFI/edit?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
                   className='contact-row'
@@ -53,7 +53,7 @@ const ContactPage = () => {
               </div>
               <div className='contact-card-text contact-item'>
                 <a
-                  href='https://drive.google.com/file/d/1nNXqiQm1c7gw1PZTUPIvXr_QfbIdLNhD/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1o40CbUUd-0yFIb_tD28EYSefAsaIf7oB/view?usp=sharing'
                   target='_blank'
                   rel='noreferrer'
                   className='contact-row'
