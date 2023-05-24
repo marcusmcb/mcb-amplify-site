@@ -48,19 +48,29 @@ const DevPage = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={6}>
+
+<Col sm={6}>
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
-                  <p>Philips Hue Control Commands for Twitch</p>
+                  <p>CrateStats</p>
                 </span>
                 <p className='dev-page-text'>
-                  A chatbot script that adds interactive lighting control commands to your Twitch channel for your connected Hue devices.
+                  A playlist analytics and interactive live-streaming tool for DJs.  Built with Node, React, Express, Material UI, and various DVS platforms.
                 </p>
-                <span className='dev-page-button-row'>                  
+                <span className='dev-page-button-row'>
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/marcusmcb/philips-hue-twitch-chat-control'
+                      href='http://www.cratestats.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      View App
+                    </a>
+                  </Button>
+                  <Button variant='outline-light' className='button-color'>
+                    <a
+                      href='https://github.com/marcusmcb/crate-stats'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -71,6 +81,8 @@ const DevPage = () => {
               </Card.Body>
             </Card>
           </Col>
+
+          
         </Row>
         <Row className='g-0'>
           <Col sm={6}>
@@ -253,18 +265,15 @@ const DevPage = () => {
             <Card className='dev-page-transparency'>
               <Card.Body className='dev-page-card'>
                 <span className='dev-page-card-title'>
-                  <p>Yelp Machine Learning Project</p>
+                  <p>Philips Hue Control Commands for Twitch</p>
                 </span>
                 <p className='dev-page-text'>
-                  A Python/Flask-based machine learning project where our team @
-                  UCI utilized the Yelp API to predict the success of a
-                  restaurant based on its category, location and price point
-                  using the Radnom Forest methodology.
+                  A chatbot script that adds interactive lighting control commands to your Twitch channel for your connected Hue devices.
                 </p>
-                <span className='dev-page-button-row'>
+                <span className='dev-page-button-row'>                  
                   <Button variant='outline-light' className='button-color'>
                     <a
-                      href='https://github.com/hmzskr/Yelp-Api-Machine-Learning-Predictions'
+                      href='https://github.com/marcusmcb/philips-hue-twitch-chat-control'
                       target='_blank'
                       rel='noreferrer'
                     >
