@@ -6,4 +6,4 @@ Built with React, Amplify and good old CSS.
 
 Mobile-first responsive design tested with iOS, Chrome and Safari.
 
-2021, MCB.
+2023, MCB.
