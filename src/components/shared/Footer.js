@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
       <Col className='footer g-0'>
-        <div className='footer-text'>
+        <div>
           <NavLink to='/footer' className='footer-text'>
             {currentYear} &#169; Marcus McBride.
           </NavLink>
